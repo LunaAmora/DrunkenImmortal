@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "ed9b98c4-6a89-4b16-bd85-4ecaa3866907",
+            "Value": {
+                "id": "bde96622-403e-4045-b57e-38992b297201",
+                "resourcePath": "sprites\\bow_spr1\\bow_spr1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f00a35d9-27d6-469b-bbd5-18cca8c51341",
             "Value": {
                 "id": "20c6bb14-726e-4ea6-8cfd-87eb7352785b",

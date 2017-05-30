@@ -2,5 +2,5 @@
 
 image_angle = player.image_angle;
 x = player.x;
-y = player.y;
+y = player.y + 10;
 

@@ -1,5 +1,5 @@
 //aa
-var __b__;
+/*var __b__;
 __b__ = action_if_variable(global.shooting, 0, 0);
 if __b__
 {
@@ -49,4 +49,4 @@ action_sprite_set(bow_spr4, 0, 1);
 }
 }
 }
-}
+}*/
