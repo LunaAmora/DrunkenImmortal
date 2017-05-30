@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "room_1",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -61,8 +61,8 @@
                     "name_with_no_file_rename": "inst_88B5662C",
                     "objId": "1de57d7d-4643-43d8-a576-35787cbedb3b",
                     "rotation": 0,
-                    "scaleX": 3,
-                    "scaleY": 3
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -183,8 +183,8 @@
                     "name_with_no_file_rename": "inst_C459B4EE",
                     "objId": "43cbc527-e92b-4584-94dd-c9406a3bf9f4",
                     "rotation": 0,
-                    "scaleX": 3,
-                    "scaleY": 3
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
