@@ -1,7 +1,7 @@
 /// @description Basic Controls
 
 //Action
-if keyboard_check(vk_space){
+if keyboard_check_pressed(vk_space){
     nbutton_scr(0)
 }
 if mouse_check_button(mb_left){

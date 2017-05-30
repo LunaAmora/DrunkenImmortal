@@ -2,3 +2,4 @@
 
 image_speed = 0;
 dash = 0;            //dash declaration
+dashCounter = 4;

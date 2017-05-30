@@ -1,0 +1,1 @@
+draw_sprite(dash_counter_spr, -1, 16, 16)
