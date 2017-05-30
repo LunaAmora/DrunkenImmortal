@@ -1,5 +1,4 @@
 /// @description Angle & direction
-// Batatas
 
 image_speed = 0;
 image_angle = radtodeg(arctan2(player.x - aim.x, player.y - aim.y));
