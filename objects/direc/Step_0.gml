@@ -1,5 +1,5 @@
 /// @description Movement Direction
-
+//a
 if keyboard_check(ord("W")) || keyboard_check(ord("S")) || keyboard_check(ord("D")) || keyboard_check(ord("A")){    
     if keyboard_check(ord("W")) && keyboard_check(ord("S")){
         y = player.y    //"up" and "down" canceling each other
