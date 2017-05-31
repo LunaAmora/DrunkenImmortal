@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "4c7c0648-65e5-4048-b26f-1851f7a472ab",
+            "Value": {
+                "id": "7e920301-a5c3-4ea2-90f9-488f9095a0cb",
+                "resourcePath": "objects\\sword\\sword.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ee536ef-88ac-45b5-b3b2-2a3e28edf1a8",
             "Value": {
                 "id": "9efcaa77-164c-40cf-8dfd-ddb8b94130d6",

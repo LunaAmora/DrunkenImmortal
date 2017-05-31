@@ -22,7 +22,10 @@ if a = 1{																	//-----Arrow-----
     }
 }
 if a = 2{																	//-----Sword-----
-	if global.shooting = 0{													//Shooting check
-		
+	if global.shooting = 0 && global.swording = 0{
+		global.swording = 1;
+		control.alarm[0] = player.arrowCooldown;                            //reset arrow cooldown
+        control.alarm[1] = -1;												//reset aiming timer													//Shooting check
+		instance_create(x, y, sword);
 	}
 }

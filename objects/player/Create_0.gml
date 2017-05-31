@@ -21,3 +21,4 @@ aimingTime = 15;
 // Other
 dizziness = false;
 dizzinessDuration = 5;
+global.swording = 0;

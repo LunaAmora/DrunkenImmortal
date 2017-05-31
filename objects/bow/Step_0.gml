@@ -1,28 +1,33 @@
-if global.shooting = 0{
-	bowImage = 0;
-}
-else{
-	if control.alarm[0] > 0{
+if global.swording = 0{
+	if global.shooting = 0{
 		bowImage = 0;
 	}
 	else{
-		if control.alarm[1] >= 2*player.aimingTime/3{
-			bowImage = 1;
+		if control.alarm[0] > 0{
+			bowImage = 0;
 		}
 		else{
-			if control.alarm[1] >= player.aimingTime/3{
-				bowImage = 2;
+			if control.alarm[1] >= 2*player.aimingTime/3{
+				bowImage = 1;
 			}
 			else{
-				if control.alarm[1] >= 1{
-					bowImage = 3;
+				if control.alarm[1] >= player.aimingTime/3{
+					bowImage = 2;
 				}
 				else{
-					if control.alarm[1] < 1{
-					bowImage = 4;
+					if control.alarm[1] >= 1{
+						bowImage = 3;
+					}
+					else{
+						if control.alarm[1] < 1{
+						bowImage = 4;
+						}
 					}
 				}
 			}
 		}
 	}
+}
+else{
+	bowImage = 5;
 }

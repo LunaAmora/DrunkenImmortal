@@ -39,7 +39,7 @@ else{
 
 //Velocity limiter
 if dash = 0{
-    if global.shooting = 0{
+    if global.shooting = 0 && global.swording = 0{
         if speed > 7{
             speed = 7;
         }
