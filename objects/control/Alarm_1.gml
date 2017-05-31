@@ -1,3 +1,6 @@
 /// @description Aiming & Shooting
 alarm[0] = player.arrowCooldown;
-instance_create(bow.x, bow.y, arrow)
+with (instance_create(player.x, player.y + 10, arrow))
+{
+	wasPlayer = true;
+}

@@ -6,5 +6,5 @@ if keyboard_check(vk_enter){    //restart game
     game_restart();
 }
 if global.spawn = true{
-	spawn_scr(enemy);
+	spawn_scr(choose(enemy, archer_enemy));
 }
