@@ -7,6 +7,9 @@ if keyboard_check_pressed(vk_space){
 if mouse_check_button(mb_left){
     nbutton_scr(1)
 }
+if mouse_check_button(mb_right){
+    nbutton_scr(2)
+}
 if mouse_check_button_released(mb_left){
     control.alarm[1] = -1;
     global.shooting = 0;
