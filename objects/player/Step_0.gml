@@ -16,13 +16,16 @@ image_angle = radtodeg(arctan2(x-mouse_x, y-mouse_y));
 
 //Movement
 if dash = 0{
+	if (dizziness) dirMod = -1;
+	else dirMod = 1;
+	
     if place_meeting(x, y, direc){
         friction = 1;
         gravity = 0;
     }
     else{
         friction = 0;
-        gravity = 0.5;
+        gravity = 0.5 * dirMod;
         gravity_direction = (radtodeg(arctan2(x-direc.x, y-direc.y))+90);
     }
 }
@@ -51,3 +54,18 @@ else instance_create(x, y, smokePuff);
 
 //Teletransportation
 move_wrap(true, true, 16);
+
+if (hp <= 0) game_end();
+
+if (keyboard_check_pressed(ord("Q")))
+{
+	sobriety -= 10;
+	if (sobriety <= 0)
+	{	
+		alarm[2] = dizzinessDuration * room_speed;
+		sobriety = 0.1;
+		dizziness = true;
+	}
+}
+
+if (sobriety < 100) sobriety += metabolism;

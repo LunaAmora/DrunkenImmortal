@@ -3,3 +3,21 @@
 image_speed = 0;
 dash = 0;            //dash declaration
 dashCounter = 4;
+
+// HP variables
+maxHp = 100;
+hp = maxHp;
+
+// Soberty Variables
+maxSobriety = 100;
+sobriety = maxSobriety;
+metabolism = 0.1;
+
+// Aim Variables
+maxError = 25;
+arrowCooldown = 10;
+aimingTime = 10;
+
+// Other
+dizziness = false;
+dizzinessDuration = 5;
