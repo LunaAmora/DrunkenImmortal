@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "414a7288-79fe-4945-944e-251e6d1fd258",
+            "Value": {
+                "id": "127bbecc-b434-4deb-aa96-94fdee4df4e6",
+                "resourcePath": "objects\\archer_enemy\\archer_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "43cbc527-e92b-4584-94dd-c9406a3bf9f4",
             "Value": {
                 "id": "bf110089-b3c4-40c4-82e3-7b939053c7ec",
