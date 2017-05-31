@@ -47,6 +47,7 @@ if dash = 0{
         speed = 0;
     }
 }
+else instance_create(x, y, smokePuff);
 
 //Teletransportation
 move_wrap(true, true, 16);
