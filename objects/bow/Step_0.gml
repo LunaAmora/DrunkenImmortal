@@ -1,51 +1,28 @@
-var __b__;
-__b__ = action_if_variable(global.shooting, 0, 0);
-if __b__
-{
-{
-action_sprite_set(bow_spr, 0, 1);
+if global.shooting = 0{
+	bowImage = 0;
 }
-}
-else
-{
-{
-__b__ = action_if_variable(control.alarm[0], 0, 2);
-if __b__
-{
-{
-action_sprite_set(bow_spr, 0, 1);
-}
-}
-else
-{
-{
-__b__ = action_if_variable(control.alarm[1], 2* player.aimingTime/3, 4);
-if __b__
-{
-action_sprite_set(bow_spr2, 0, 1);
-}
-else
-
-{
-{
-__b__ = action_if_variable(control.alarm[1], player.aimingTime/3, 4);
-if __b__
-{
-action_sprite_set(bow_spr3, 0, 1);
-}
-else
-{
-{
-__b__ = action_if_variable(control.alarm[1], player.aimingTime/3, 1);
-if __b__
-{
-action_sprite_set(bow_spr4, 0, 1);
-}
-}
-}
-}
-}
-}
-}
-}
+else{
+	if control.alarm[0] > 0{
+		bowImage = 0;
+	}
+	else{
+		if control.alarm[1] >= 2*player.aimingTime/3{
+			bowImage = 1;
+		}
+		else{
+			if control.alarm[1] >= player.aimingTime/3{
+				bowImage = 2;
+			}
+			else{
+				if control.alarm[1] >= 1{
+					bowImage = 3;
+				}
+				else{
+					if control.alarm[1] < 1{
+					bowImage = 4;
+					}
+				}
+			}
+		}
+	}
 }

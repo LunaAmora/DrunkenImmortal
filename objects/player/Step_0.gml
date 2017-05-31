@@ -55,7 +55,7 @@ else instance_create(x, y, smokePuff);
 //Teletransportation
 move_wrap(true, true, 16);
 
-if (hp <= 0) game_end();
+if (hp <= 0) game_restart();
 
 if (keyboard_check_pressed(ord("Q")))
 {

@@ -15,8 +15,8 @@ metabolism = 0.1;
 
 // Aim Variables
 maxError = 25;
-arrowCooldown = 10;
-aimingTime = 10;
+arrowCooldown = 5;
+aimingTime = 15;
 
 // Other
 dizziness = false;
