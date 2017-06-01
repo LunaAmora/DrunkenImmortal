@@ -2,3 +2,4 @@
 directed = false;
 wasPlayer = false;
 velo = 10;				//archer
+//alarm[0] = 60;

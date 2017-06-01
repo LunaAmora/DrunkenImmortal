@@ -2,8 +2,13 @@
 image_speed = 0;
 
 // Var Declaring
+usingWeapon = 0;		
 shooting = 0;
 swording = 0;
+
+// Speed
+maxSpeed = 8;
+ingSpeed = 4;
 
 // Dash
 dash = 0;
@@ -22,8 +27,8 @@ metabolism = 0.1;
 
 // Shoot Variables
 maxError = 25;
-arrowCooldown = 5;
-aimingTime = 15;
+arrowCooldown = 2;
+aimingTime = 4;
 shootVelo = 30
 
 // Others

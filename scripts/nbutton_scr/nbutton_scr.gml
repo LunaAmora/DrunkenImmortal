@@ -6,7 +6,7 @@ switch (a)
 {
 	case 0:		// DASH--------------------------------------------------------
 	
-		if speed != 0 && dash = 0 && dashCounter > 0{                    //timer & cooldown check
+		if speed != 0 && dash = 0 && dashCounter > 0{                   //timer & cooldown check
 	        alarm[4] = arrowCooldown;									//reset arrow cooldown
 	        alarm[3] = -1;												//reset aiming timer
 			dashCounter--;
@@ -14,25 +14,37 @@ switch (a)
 			dash = 1;													//stop movements
 			alarm[0] = dash_timer;										//dash timer
 	    }
-		break;
+	break;
 		
 	case 1:		// ARROW-------------------------------------------------------
 	
-		if alarm[4] <= 0{												//cooldown check
+		if alarm[4] <= 0 && usingWeapon = 0 && swording = 0{			//cooldown check
 	        shooting = 1;												//speed reducer
 	        if alarm[3] <= 0{											//aim check
 	            alarm[3] = aimingTime;									//aiming timer
 	        }
 	    }
-		break;
+	break;
 		
 	case 2:		// SWORD-------------------------------------------------------
 	
-	if shooting = 0 && swording = 0{
-		swording = 1;
-		alarm[4] = arrowCooldown;										//reset arrow cooldown
-        alarm[3] = -1;													//reset aiming timer													//Shooting check
-		instance_create(x, y, sword);	
-	}
+		if  swording = 0{
+			usingWeapon = 1;
+			swording = 1;
+			alarm[4] = arrowCooldown;									//reset arrow cooldown
+	        alarm[3] = -1;												//reset aiming timer													//Shooting check
+			instance_create(x, y, sword);	
+		}
+	break;
+	
+	case 3:		// Drink--------------------------------------------------------
+		
+		sobriety -= 10;
+		if (sobriety <= 0)
+		{	
+			alarm[2] = dizzinessDuration * room_speed;
+			sobriety = 0.1;
+			dizziness = true;
+		}
 	break;
 }

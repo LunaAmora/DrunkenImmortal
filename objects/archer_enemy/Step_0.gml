@@ -1,11 +1,19 @@
 //Perseguir jogador
+
 image_angle = radtodeg(arctan2(x-player.x, y-player.y));
-if (point_distance(x, y, player.x, player.y) > distanceTreshold1) motion_set (image_angle + 90, 7);
-else if (point_distance(x, y, player.x, player.y) < distanceTreshold2)
-{
-	motion_set (image_angle + 90 + 180, 4);
+dirMod = 1;
+
+if (point_distance(x, y, player.x, player.y) > distanceTreshold1){
+	if (speed > 8) speed--;
 }
-else motion_set (image_angle + 90 + (90 * spinDir), 2.5);
+else if (point_distance(x, y, player.x, player.y) < distanceTreshold2){
+	dirMod = -1
+	if (speed > 5) speed--;
+}
+else{
+	dirMod = spinDir;
+	if (speed > 3.5) speed--;
+}
 
 if (canShoot && point_distance(x, y, player.x, player.y) < distanceTreshold3)
 {
@@ -16,3 +24,5 @@ if (canShoot && point_distance(x, y, player.x, player.y) < distanceTreshold3)
 	canShoot = false;
 	alarm[1] = arrowCooldown;
 }
+
+gravity_direction = image_angle + 90*dirMod;

@@ -1,6 +1,6 @@
 bowImage = 0;
 
-if swording = 0{
+if usingWeapon = 0 && swording = 0{
 	if alarm[4] > 0{
 		bowImage = 0;
 	}

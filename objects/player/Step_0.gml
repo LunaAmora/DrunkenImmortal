@@ -1,23 +1,34 @@
 /// @description Basic Controls
 
-//Action
+// Action
 if keyboard_check_pressed(vk_space){
     nbutton_scr(0)
 }
+
 if mouse_check_button(mb_left){
     nbutton_scr(1)
 }
+
 if mouse_check_button(mb_right){
-    nbutton_scr(2)
+    nbutton_scr(2)	
 }
+
+if (keyboard_check_pressed(ord("Q"))){
+	nbutton_scr(3)	
+}
+
 if mouse_check_button_released(mb_left){
     alarm[3] = -1;
     shooting = 0;
 }
-//Direction
+if mouse_check_button_released(mb_right){
+    usingWeapon = 0;
+}
+
+// Direction
 image_angle = radtodeg(arctan2(x-mouse_x, y-mouse_y));
 
-//Movement
+// Movement
 if dash = 0{
 	if (dizziness) dirMod = -1;
 	else dirMod = 1;
@@ -37,16 +48,16 @@ else{
     friction = 0
 }
 
-//Velocity limiter
+// Velocity limiter
 if dash = 0{
     if shooting = 0 && swording = 0{
-        if speed > 7{
-            speed = 7;
+        if speed > maxSpeed{
+            speed = maxSpeed;
         }
     }
     else{
-        if speed > 4{
-            speed = 4
+        if speed > ingSpeed{
+            speed = ingSpeed;
         }
     }
     if speed < 0{
@@ -55,20 +66,7 @@ if dash = 0{
 }
 else instance_create(x, y, smokePuff);
 
-//Teletransportation
+// Other Things
 move_wrap(true, true, 16);
-
 if (hp <= 0) game_restart();
-
-if (keyboard_check_pressed(ord("Q")))
-{
-	sobriety -= 10;
-	if (sobriety <= 0)
-	{	
-		alarm[2] = dizzinessDuration * room_speed;
-		sobriety = 0.1;
-		dizziness = true;
-	}
-}
-
 if (sobriety < 100) sobriety += metabolism;
