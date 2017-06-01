@@ -27,8 +27,8 @@ metabolism = 0.1;
 
 // Shoot Variables
 maxError = 25;
-arrowCooldown = 2;
-aimingTime = 4;
+arrowCooldown = 5;
+aimingTime = 10;
 shootVelo = 30
 
 // Others
