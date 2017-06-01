@@ -1,11 +1,17 @@
 /// @description Player Sheet
-
 image_speed = 0;
-dash = 0;            //dash declaration
+
+// Var Declaring
+shooting = 0;
+swording = 0;
+
+// Dash
+dash = 0;
+dash_timer = 5;
 dashCounter = 4;
 dashRegen = 60;
 
-// HP variables
+// HP Variables
 maxHp = 100;
 hp = maxHp;
 
@@ -14,12 +20,13 @@ maxSobriety = 100;
 sobriety = maxSobriety;
 metabolism = 0.1;
 
-// Aim Variables
+// Shoot Variables
 maxError = 25;
 arrowCooldown = 5;
 aimingTime = 15;
+shootVelo = 30
 
-// Other
+// Others
 dizziness = false;
 dizzinessDuration = 5;
-global.swording = 0;
+swordAngle = 140;

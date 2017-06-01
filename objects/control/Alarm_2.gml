@@ -1,2 +1,2 @@
 /// @description Spawner
-global.spawn = true;
+spawn = true;

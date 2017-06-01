@@ -1,27 +1,32 @@
 bowImage = 0;
 
-if control.alarm[0] > 0{
-	bowImage = 0;
-}
-else{
-	if control.alarm[1] >= 2*aimingTime/3{
-		bowImage = 1;
+if swording = 0{
+	if alarm[4] > 0{
+		bowImage = 0;
 	}
 	else{
-		if control.alarm[1] >= aimingTime/3{
-			bowImage = 2;
+		if alarm[3] >= 2*aimingTime/3{
+			bowImage = 1;
 		}
 		else{
-			if control.alarm[1] >= 1{
-				bowImage = 3;
+			if alarm[3] >= aimingTime/3{
+				bowImage = 2;
 			}
 			else{
-				if control.alarm[1] < 1{
-				bowImage = 4;
+				if alarm[3] >= 1{
+					bowImage = 3;
+				}
+				else{
+					if alarm[3] < 1{
+					bowImage = 4;
+					}
 				}
 			}
 		}
 	}
+}
+else{
+	bowImage = 5
 }
 
 draw_sprite_ext(bow_spr, bowImage, x, y + 10, 1, 1, image_angle, c_white, image_alpha);

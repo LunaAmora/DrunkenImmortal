@@ -11,8 +11,8 @@ if mouse_check_button(mb_right){
     nbutton_scr(2)
 }
 if mouse_check_button_released(mb_left){
-    control.alarm[1] = -1;
-    global.shooting = 0;
+    alarm[3] = -1;
+    shooting = 0;
 }
 //Direction
 image_angle = radtodeg(arctan2(x-mouse_x, y-mouse_y));
@@ -39,7 +39,7 @@ else{
 
 //Velocity limiter
 if dash = 0{
-    if global.shooting = 0 && global.swording = 0{
+    if shooting = 0 && swording = 0{
         if speed > 7{
             speed = 7;
         }
