@@ -1,4 +1,4 @@
-if (!other.wasPlayer)
+if (!other.wasPlayer)&& dash = 0
 {
 	with(other)
 	{
