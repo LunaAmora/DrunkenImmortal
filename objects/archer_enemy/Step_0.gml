@@ -3,9 +3,9 @@ image_angle = radtodeg(arctan2(x-player.x, y-player.y));
 if (point_distance(x, y, player.x, player.y) > distanceTreshold1) motion_set (image_angle + 90, 7);
 else if (point_distance(x, y, player.x, player.y) < distanceTreshold2)
 {
-	motion_set (image_angle + 90 + 180, 7);
+	motion_set (image_angle + 90 + 180, 4);
 }
-else motion_set (image_angle + 90 + (90 * spinDir), 4);
+else motion_set (image_angle + 90 + (90 * spinDir), 2.5);
 
 if (canShoot && point_distance(x, y, player.x, player.y) < distanceTreshold3)
 {
