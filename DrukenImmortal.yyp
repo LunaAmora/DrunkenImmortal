@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "375683d4-da22-408e-bbed-6f2a60432167",
-            "Value": {
-                "id": "a3c7ec69-49e0-4dd4-b8a2-f09470f770d7",
-                "resourcePath": "notes\\compatibility_report_270517_140354035.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "3f6a1eb0-05ba-4cb6-8765-104a6ce86203",
             "Value": {
                 "id": "04299a3c-61f4-4631-936a-d1045ef7635a",
@@ -255,14 +247,6 @@
             }
         },
         {
-            "Key": "793431a3-7ce1-464c-a32b-ee85f6995810",
-            "Value": {
-                "id": "4acd7fc1-0020-4741-a805-782662fe6ef5",
-                "resourcePath": "notes\\notes.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "7bd43ec6-c443-43ed-b17f-d8797aecd841",
             "Value": {
                 "id": "34db5c3c-0378-46da-97ea-c36c4e23dd43",
@@ -359,14 +343,6 @@
             }
         },
         {
-            "Key": "b3d2bfdc-40ac-475a-8f7c-e4569c4ee582",
-            "Value": {
-                "id": "e793c5c4-f353-40de-8426-dd4e426531d7",
-                "resourcePath": "sprites\\direc_spr\\direc_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b8138362-dda3-4960-a651-82428500e338",
             "Value": {
                 "id": "4e2e0b5f-1874-4321-a430-c88d41451177",
@@ -455,14 +431,6 @@
             }
         },
         {
-            "Key": "f00a35d9-27d6-469b-bbd5-18cca8c51341",
-            "Value": {
-                "id": "20c6bb14-726e-4ea6-8cfd-87eb7352785b",
-                "resourcePath": "scripts\\macros\\macros.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f2258958-e644-4ab5-b724-5b945b16c3a4",
             "Value": {
                 "id": "5cd23744-5154-4e01-8681-2f7b17361c2e",
@@ -520,7 +488,8 @@
         }
     ],
     "script_order": [
-        "f00a35d9-27d6-469b-bbd5-18cca8c51341",
+        "61c18c48-4ceb-4006-bd45-e045928c5995",
+        "e2fa757b-f3e1-4001-a557-ee61f51d8131",
         "8456b364-07ab-437c-9c81-efb79ee01608",
         "12075031-acab-4e6a-909c-e5eca9af177b",
         "f2258958-e644-4ab5-b724-5b945b16c3a4",
@@ -529,9 +498,7 @@
         "fbdc0f24-4f25-41f5-ad5f-2ae1bdb6aea8",
         "3f6a1eb0-05ba-4cb6-8765-104a6ce86203",
         "09ba3daf-03fa-4a6b-9ecd-15b431fb1b4a",
-        "336dab4c-a79e-4133-8362-f977ade9276f",
-        "e2fa757b-f3e1-4001-a557-ee61f51d8131",
-        "61c18c48-4ceb-4006-bd45-e045928c5995"
+        "336dab4c-a79e-4133-8362-f977ade9276f"
     ],
     "tutorial": ""
 }
