@@ -5,7 +5,7 @@ dash = 0;            //dash declaration
 dashCounter = 4;
 
 // HP variables
-maxHp = 100;
+maxHp = 100000000000000000000000000;
 hp = maxHp;
 
 // Soberty Variables

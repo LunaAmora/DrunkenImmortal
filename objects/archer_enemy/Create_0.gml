@@ -1,9 +1,9 @@
 image_speed = 0;
 
 spinDir = choose(-1, 1);
-distanceTreshold1 = 430;
-distanceTreshold2 = 340;
-distanceTreshold3 = 520;
+distanceTreshold1 = 300;
+distanceTreshold2 = 250;
+distanceTreshold3 = 400;
 canShoot = false;
 
 aimingTime = 15;
