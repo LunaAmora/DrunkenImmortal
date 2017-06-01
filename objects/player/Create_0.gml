@@ -3,9 +3,10 @@
 image_speed = 0;
 dash = 0;            //dash declaration
 dashCounter = 4;
+dashRegen = 60;
 
 // HP variables
-maxHp = 1000;
+maxHp = 100;
 hp = maxHp;
 
 // Soberty Variables
