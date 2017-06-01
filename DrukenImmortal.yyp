@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "43cbc527-e92b-4584-94dd-c9406a3bf9f4",
-            "Value": {
-                "id": "bf110089-b3c4-40c4-82e3-7b939053c7ec",
-                "resourcePath": "objects\\bow\\bow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4883a519-4770-4017-90a3-5700a749779f",
             "Value": {
                 "id": "572a1225-9f2f-4a96-9334-d5e0898bdbcf",

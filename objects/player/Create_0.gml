@@ -3,9 +3,10 @@
 image_speed = 0;
 dash = 0;            //dash declaration
 dashCounter = 4;
+dashRegen = 60;
 
 // HP variables
-maxHp = 100000000000000000000000000;
+maxHp = 100;
 hp = maxHp;
 
 // Soberty Variables
@@ -22,3 +23,5 @@ aimingTime = 15;
 dizziness = false;
 dizzinessDuration = 5;
 global.swording = 0;
+
+bowImage = 0;
