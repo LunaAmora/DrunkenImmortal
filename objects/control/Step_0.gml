@@ -6,5 +6,5 @@ if keyboard_check(vk_enter){    //restart game
     game_restart();
 }
 if spawn = true{
-	spawn_scr(choose(enemy, archer_enemy));
+	spawn_scr(choose(enemy, mage_enemy, archer_enemy));
 }

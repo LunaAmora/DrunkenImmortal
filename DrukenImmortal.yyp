@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "96daea1d-685f-4eed-9b37-d62658445d99",
+            "Value": {
+                "id": "17035bba-1997-4939-b741-9ad220a92ee4",
+                "resourcePath": "objects\\magic_arrow\\magic_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97bfb712-a9f1-4a72-9963-9991ac7b7f9d",
             "Value": {
                 "id": "7466c042-8c61-40cb-8486-5b7b17c078f7",
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "b6f14b07-298a-4be2-8837-bff6a2b2889d",
+            "Value": {
+                "id": "38d2eb7c-5720-466d-be6b-613524f28245",
+                "resourcePath": "objects\\mage_enemy\\mage_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8138362-dda3-4960-a651-82428500e338",
             "Value": {
                 "id": "4e2e0b5f-1874-4321-a430-c88d41451177",
@@ -371,6 +387,14 @@
             "Value": {
                 "id": "5c84b7fd-1031-48dc-9482-31847145518a",
                 "resourcePath": "sprites\\dash_counter_spr\\dash_counter_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3f00b6c-4044-48f9-aca9-749134ef7df9",
+            "Value": {
+                "id": "e1973b80-3bab-4222-a4c5-dae39ffd1e7c",
+                "resourcePath": "sprites\\enemy_spr\\enemy_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

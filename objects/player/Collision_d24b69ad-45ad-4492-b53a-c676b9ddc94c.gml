@@ -4,5 +4,5 @@ if (!other.wasPlayer)&& dash = 0
 	{
 		instance_destroy();
 	}
-	hp -= 5;
+	hp -= 1;
 }
