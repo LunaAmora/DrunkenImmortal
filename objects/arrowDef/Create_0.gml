@@ -1,5 +1,6 @@
 /// @description
 event_inherited()
 
-goingMiddle = false;
-fistM = true;
+goingMiddle = true;
+fistM = false;
+fixed = false;

@@ -1,20 +1,19 @@
 /// @description
 
 if mouse_check_button(mb_middle){
-	goingMiddle = true;
 	dirX = mouse_x;
 	dirY = mouse_y;
 }
 else{
-	goingMiddle = false;
 	dirX = owner.x;
 	dirY = owner.y;
 }
 
-if goingMiddle = true{
+defAim_scr(dirX + owner.distanceDef * cos(degtorad(anglePos)), dirY - owner.distanceDef * sin(degtorad(anglePos)));
+
+/*if goingMiddle = true{
 	if (fistM){
 		motion_set(image_angle + 90, degtorad(veloDef)*owner.distanceDef);
-		//if speed > 10 speed = 10;
 		fistM = false;
 	}
 	gravity = 2;
