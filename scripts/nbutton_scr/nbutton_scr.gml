@@ -56,7 +56,10 @@ switch (a){
 		if canDef = 1{
 			for (var i = defQuanti; i != 0; i--){
 				var deff =(instance_create_layer(x, y, "GameLayer", arrowDef))
-				deff.image_angle = i*(360 div defQuanti);
+				deff.owner = id;
+				deff.anglePos = i*(360 div defQuanti)
+				deff.x = x + distanceDef * cos(degtorad(deff.anglePos));
+				deff.y = y - distanceDef * sin(degtorad(deff.anglePos));
 			}
 			canDef = 0;
 		}
