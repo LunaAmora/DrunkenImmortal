@@ -25,11 +25,11 @@ if (goingMiddle){
 	gravity = 3;
 	gravity_direction = radtodeg(arctan2(x - a, y - b))+ 90;
 	image_angle = direction - 90;
-	if speed > 12 speed -= 2;
+	if speed > 10 speed -= 2;
 }
 
 if (fixed){
-	x = dirX + owner.distanceDef * cos(degtorad(anglePos));
-	y = dirY - owner.distanceDef * sin(degtorad(anglePos));
+	x = dirX + owner.distanceDef * cos(degtorad(bAnglePos+anglePos));
+	y = dirY - owner.distanceDef * sin(degtorad(bAnglePos+anglePos));
 	image_angle = radtodeg(arctan2(x - dirX, y - dirY))+90;
 }
