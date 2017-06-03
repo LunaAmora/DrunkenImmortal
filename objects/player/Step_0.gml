@@ -2,19 +2,23 @@
 
 // Action
 if keyboard_check_pressed(vk_space){
-    nbutton_scr(0)
+    nbutton_scr(0);
 }
 
 if mouse_check_button(mb_left){
-    nbutton_scr(1)
+    nbutton_scr(1);
 }
 
 if mouse_check_button(mb_right){
-    nbutton_scr(2)	
+    nbutton_scr(2);
 }
 
+/*if mouse_check_button_pressed(mb_middle){
+	nbutton_scr(4);
+}*/
+
 if (keyboard_check_pressed(ord("Q"))){
-	nbutton_scr(3)	
+	nbutton_scr(3);
 }
 
 if mouse_check_button_released(mb_left){
@@ -67,5 +71,8 @@ if dash = 0{
 else instance_create_layer(x, y, "gameLayer", smokePuff);
 
 // Other Things
-if (hp <= 0) game_restart();
+if (hp <= 0){
+	if score > global.maxScore global.maxScore = score;
+    room_restart();
+}
 if (sobriety < 100) sobriety += metabolism;

@@ -1,4 +1,3 @@
 /// @description Angle & direction
 
-whoShoot = ""
-velo = 0;
+whoShoot = "player"

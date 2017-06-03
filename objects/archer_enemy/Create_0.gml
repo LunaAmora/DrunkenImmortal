@@ -10,7 +10,7 @@ distanceTreshold2 = 250;			//retreat
 distanceTreshold3 = 450;			//shoot
 canShoot = false;
 
-aimingTime = 15;
+aimingTime = 10;
 arrowCooldown = irandom_range(0,10);
 shootVelo = 12;
 

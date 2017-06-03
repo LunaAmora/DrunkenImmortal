@@ -51,4 +51,13 @@ switch (a){
 			dizziness = true;
 		}
 	break;
+	
+	case 4:
+		if canDef = 1{
+			for (var i = defQuanti; i != 0; i--){
+				var deff =(instance_create_layer(x, y, "GameLayer", arrowDef))
+				deff.image_angle = i*(360 div defQuanti);
+			}
+			canDef = 0;
+		}
 }

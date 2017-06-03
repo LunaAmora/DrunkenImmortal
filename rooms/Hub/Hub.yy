@@ -23,8 +23,8 @@
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "depth": -100,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 750,
+            "grid_y": 1000,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -49,8 +49,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_88B5662C",
-                    "x": 1568,
-                    "y": 1504,
+                    "x": 1500,
+                    "y": 1000,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -264,7 +264,7 @@
         "id": "edfe8759-c1b1-4fa6-b80c-3e9adffee61f",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 3000,
+        "Height": 2000,
         "Width": 3000,
         "inheritRoomSettings": false,
         "persistent": false
