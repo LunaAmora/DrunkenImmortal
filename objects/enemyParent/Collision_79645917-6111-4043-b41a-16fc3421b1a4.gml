@@ -2,7 +2,7 @@ if (other.wasPlayer)
 {
 	with (other)
 	{
-		action_kill_object();
+		instance_destroy();
 	}
-	action_kill_object();
+	instance_destroy();
 }

@@ -1,10 +1,7 @@
 bowImage = 0;
 
 if usingWeapon = 0 && swording = 0{
-	if alarm[4] > 0{
-		bowImage = 0;
-	}
-	else{
+	if alarm[4] <= 0{
 		if alarm[3] >= 2*aimingTime/3{
 			bowImage = 1;
 		}
@@ -24,10 +21,14 @@ if usingWeapon = 0 && swording = 0{
 			}
 		}
 	}
+	if shooting = 0{
+		bowImage = 0;
+	}
 }
 else{
-	bowImage = 5
+	bowImage = 5;
 }
+
 
 draw_sprite_ext(bow_spr, bowImage, x, y + 10, 1, 1, image_angle, c_white, image_alpha);
 

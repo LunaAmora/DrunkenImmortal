@@ -7,7 +7,7 @@ distanceTreshold2 = 250;			//retreat
 distanceTreshold3 = 400;			//shoot
 canShoot = false;
 
-aimingTime = 15;
-arrowCooldown = 5;
+aimingTime = 30;
+arrowCooldown = 30;
 alarm[0] = aimingTime;
 alarm[2] = irandom_range(90, 240);

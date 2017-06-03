@@ -1,4 +1,3 @@
 /// @description Variables
-
+time = 0;
 spawn = true;
-action_set_cursor(point_spr, 0);

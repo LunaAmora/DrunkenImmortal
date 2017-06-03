@@ -33,7 +33,7 @@ switch (a)
 			swording = 1;
 			alarm[4] = arrowCooldown;									//reset arrow cooldown
 	        alarm[3] = -1;												//reset aiming timer													//Shooting check
-			instance_create(x, y, sword);	
+			instance_create_layer(x, y, "GameLayer", sword);	
 		}
 	break;
 	

@@ -64,9 +64,8 @@ if dash = 0{
         speed = 0;
     }
 }
-else instance_create(x, y, smokePuff);
+else instance_create_layer(x, y, "gameLayer", smokePuff);
 
 // Other Things
-move_wrap(true, true, 16);
 if (hp <= 0) game_restart();
 if (sobriety < 100) sobriety += metabolism;

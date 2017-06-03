@@ -17,7 +17,7 @@ else{
 
 if (canShoot && point_distance(x, y, player.x, player.y) < distanceTreshold3)
 {
-	with(instance_create(x, y + 10, arrow))
+	with(instance_create_layer(x, y + 10, "GameLayer", arrow))
 	{
 		image_angle = other.image_angle;
 	}

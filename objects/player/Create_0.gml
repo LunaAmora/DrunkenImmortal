@@ -28,8 +28,8 @@ metabolism = 0.1;
 // Shoot Variables
 maxError = 25;
 arrowCooldown = 5;
-aimingTime = 10;
-shootVelo = 30
+aimingTime = 15;
+shootVelo = 30;
 
 // Others
 dizziness = false;
