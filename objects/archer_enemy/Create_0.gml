@@ -1,13 +1,17 @@
 image_speed = 0;
 gravity = 0.5;
 
+usingWeapon = 0;
+swording = 0;
+
 spinDir = choose(2, 0);
 distanceTreshold1 = 300;			//orbit
 distanceTreshold2 = 250;			//retreat
-distanceTreshold3 = 400;			//shoot
+distanceTreshold3 = 450;			//shoot
 canShoot = false;
 
 aimingTime = 15;
-arrowCooldown = 5;
-alarm[0] = aimingTime;
+arrowCooldown = irandom_range(0,10);
+shootVelo = 12;
+
 alarm[2] = irandom_range(90, 240);

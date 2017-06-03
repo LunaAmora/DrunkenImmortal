@@ -8,7 +8,7 @@ swording = 0;
 
 // Speed
 maxSpeed = 8;
-ingSpeed = 4;
+ingSpeed = 5;
 
 // Dash
 dash = 0;
@@ -28,10 +28,12 @@ metabolism = 0.1;
 // Shoot Variables
 maxError = 25;
 arrowCooldown = 5;
-aimingTime = 15;
+aimingTime = 10;
 shootVelo = 30;
 
 // Others
 dizziness = false;
 dizzinessDuration = 5;
 swordAngle = 140;
+swordCooldown = 0;
+swordSpeed = 20;

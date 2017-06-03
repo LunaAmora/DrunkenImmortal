@@ -1,2 +1,8 @@
 /// @description
-instance_destroy(other);
+
+if (other.whoShoot == colisorId) || (other.whoShoot != "player" && colisorId != "player")  {
+
+}
+else{
+	instance_destroy(other);
+}

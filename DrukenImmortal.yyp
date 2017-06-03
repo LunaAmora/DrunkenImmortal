@@ -223,18 +223,10 @@
             }
         },
         {
-            "Key": "96daea1d-685f-4eed-9b37-d62658445d99",
-            "Value": {
-                "id": "17035bba-1997-4939-b741-9ad220a92ee4",
-                "resourcePath": "objects\\magic_arrow\\magic_arrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "97bfb712-a9f1-4a72-9963-9991ac7b7f9d",
             "Value": {
                 "id": "7466c042-8c61-40cb-8486-5b7b17c078f7",
-                "resourcePath": "sprites\\player_spr1\\player_spr1.yy",
+                "resourcePath": "sprites\\player_spr\\player_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -243,14 +235,6 @@
             "Value": {
                 "id": "ab479b69-82d7-4331-a78d-5924c8e86ebd",
                 "resourcePath": "sprites\\arrow_spr\\arrow_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9d3b75b5-6e45-4621-a974-3d8e0d04b95f",
-            "Value": {
-                "id": "83a92e07-923e-4c19-8463-ee4eeb3b2897",
-                "resourcePath": "sprites\\player_spr\\player_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

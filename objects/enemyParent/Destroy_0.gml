@@ -1,0 +1,2 @@
+/// @description
+score += 10;

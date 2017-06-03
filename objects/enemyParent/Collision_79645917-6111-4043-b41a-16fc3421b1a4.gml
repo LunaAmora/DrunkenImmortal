@@ -1,4 +1,4 @@
-if (other.wasPlayer)
+if (other.whoShoot == "player")
 {
 	with (other)
 	{

@@ -1,6 +1,12 @@
 /// @description
-image_angle += 20;
-if image_angle >= angleMax{
-	player.swording = 0;
-	instance_destroy()
-} 
+
+if instance_exists(owner){
+	image_angle += owner.swordSpeed;
+	if image_angle >= angleMax{
+		owner.swording = 0;
+		instance_destroy()
+	}
+}
+else{
+	instance_destroy();
+}

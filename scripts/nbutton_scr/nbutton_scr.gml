@@ -2,15 +2,14 @@
 a = argument0;
 
 
-switch (a)
-{
+switch (a){
 	case 0:		// DASH--------------------------------------------------------
 	
 		if speed != 0 && dash = 0 && dashCounter > 0{                   //timer & cooldown check
 	        alarm[4] = arrowCooldown;									//reset arrow cooldown
 	        alarm[3] = -1;												//reset aiming timer
 			dashCounter--;
-			motion_set(radtodeg(arctan2(x-direc.x,y-direc.y))+90,25*dirMod)//dash speed
+		motion_set(radtodeg(arctan2(x-direc.x,y-direc.y))+90,25*dirMod) //dash speed
 			dash = 1;													//stop movements
 			alarm[0] = dash_timer;										//dash timer
 	    }
@@ -33,7 +32,12 @@ switch (a)
 			swording = 1;
 			alarm[4] = arrowCooldown;									//reset arrow cooldown
 	        alarm[3] = -1;												//reset aiming timer													//Shooting check
-			instance_create_layer(x, y, "GameLayer", sword);	
+			with (instance_create_layer(x, y, "GameLayer", sword)){
+				owner = other.id
+				image_angle = owner.image_angle - owner.swordAngle/2;
+				angleMax = owner.image_angle + owner.swordAngle/2;
+				colisorId = string(object_get_name(owner.object_index));
+			}	
 		}
 	break;
 	

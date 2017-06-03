@@ -1,8 +1,10 @@
-if (!other.wasPlayer)&& dash = 0
-{
+if other.whoShoot != "player" && dash = 0{
 	with(other)
 	{
 		instance_destroy();
 	}
-	hp -= 1;
+	switch (other.whoShoot){
+		case "archer": hp -= 1;break;
+		case "mage": hp -= 5;break;
+	}
 }

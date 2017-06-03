@@ -20,4 +20,4 @@ if a != noone{
 		instance_create_layer(random_range(0, room_width), room_height+20, "GameLayer", a);
 	}
 }
-alarm_set(2, 45);
+alarm_set(2, 20);

@@ -8,21 +8,16 @@ if (point_distance(x, y, player.x, player.y) > distanceTreshold1){
 }
 else if (point_distance(x, y, player.x, player.y) < distanceTreshold2){
 	dirMod = -1
-	if (speed > 3) speed--;
+	if (speed > 4) speed--;
 }
 else{
 	dirMod = spinDir;
-	if (speed > 1.5) speed--;
+	if (speed > 2) speed--;
 }
 
-if (canShoot && point_distance(x, y, player.x, player.y) < distanceTreshold3)
+if (point_distance(x, y, player.x, player.y) < distanceTreshold3)
 {
-	with(instance_create_layer(x, y + 10, "GameLayer", magic_arrow))
-	{
-		image_angle = other.image_angle;
-	}
-	canShoot = false;
-	alarm[1] = arrowCooldown;
+	nbutton_scr(1);
 }
 
 gravity_direction = image_angle + 90*dirMod;
