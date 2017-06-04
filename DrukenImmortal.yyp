@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "973dbd55-7f70-474a-881f-f6d353b15088",
+            "Value": {
+                "id": "f8dc7312-0aa1-4bc3-a7c3-f06147b407eb",
+                "resourcePath": "scripts\\defReset_scr\\defReset_scr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "97bfb712-a9f1-4a72-9963-9991ac7b7f9d",
             "Value": {
                 "id": "7466c042-8c61-40cb-8486-5b7b17c078f7",
@@ -425,8 +433,9 @@
     ],
     "script_order": [
         "e2fa757b-f3e1-4001-a557-ee61f51d8131",
-        "99cfd0e0-c990-4685-a97a-76f3ddb235df",
-        "61c18c48-4ceb-4006-bd45-e045928c5995"
+        "61c18c48-4ceb-4006-bd45-e045928c5995",
+        "973dbd55-7f70-474a-881f-f6d353b15088",
+        "99cfd0e0-c990-4685-a97a-76f3ddb235df"
     ],
     "tutorial": ""
 }

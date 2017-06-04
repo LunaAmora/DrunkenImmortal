@@ -39,6 +39,6 @@ swordCooldown = 0;
 swordSpeed = 20;
 
 canDef = 1;
-defQuanti = 1;
+defQuanti = 3;
 distanceDef = 50;
 nbutton_scr(4);

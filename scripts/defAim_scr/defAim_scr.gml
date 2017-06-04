@@ -3,7 +3,7 @@
 a = argument0;
 b = argument1;
 
-if point_distance(x, y, a, b) < 40{
+if point_distance(x, y, a, b) < 30{
 	if !(fixed){
 	gravity = 0;
 	speed = 0;
@@ -13,8 +13,8 @@ if point_distance(x, y, a, b) < 40{
 	}
 }
 else{
-goingMiddle = true;
-fixed = false;
+	goingMiddle = true;
+	fixed = false;
 }
 
 if (goingMiddle){
@@ -25,7 +25,7 @@ if (goingMiddle){
 	gravity = 3;
 	gravity_direction = radtodeg(arctan2(x - a, y - b))+ 90;
 	image_angle = direction - 90;
-	if speed > 10 speed -= 2;
+	if speed > 12 speed -= 2;
 }
 
 if (fixed){

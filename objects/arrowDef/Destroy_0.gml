@@ -6,3 +6,5 @@ for(a = 0; a <= control.arraySize; a++){
 		a = control.arraySize+1;
 	}
 }
+
+defReset_scr();

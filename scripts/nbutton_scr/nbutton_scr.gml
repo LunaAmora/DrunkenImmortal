@@ -55,14 +55,17 @@ switch (a){
 	case 4:
 		if canDef = 1{
 			for (var i = defQuanti; i != 0; i--){
-				with(instance_create_layer(x, y, "GameLayer", arrowDef)){
-					owner = other.id;
-					for (a = 0; a <= control.arraySize; a++){
-						if control.defCircle[a] == 0{
-							control.defCircle[a] = id;
-							a = control.arraySize+1;
+				if instance_number(arrowDef)+1 <= control.arraySize{
+					with(instance_create_layer(x, y, "GameLayer", arrowDef)){
+						owner = other.id;
+						for (a = 0; a <= control.arraySize; a++){
+							if control.defCircle[a] == 0{
+								control.defCircle[a] = id;
+								a = control.arraySize+1;
+							}
 						}
 					}
+					defReset_scr();
 				}
 			}
 			//canDef = 0;
