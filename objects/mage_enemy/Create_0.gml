@@ -11,7 +11,7 @@ distanceTreshold3 = 550;			//shoot
 
 aimingTime = 30;
 arrowCooldown = irandom_range(15,45);
-shootVelo = 7;
+shootVelo = 5;
 arrowDurability = 10;
 
 alarm[2] = irandom_range(90, 240);
