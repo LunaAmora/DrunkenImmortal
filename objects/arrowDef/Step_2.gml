@@ -1,4 +1,5 @@
 /// @description
+event_inherited()
 
 substitute = 0;
 for(a = 0; a <= control.arraySize; a++){
