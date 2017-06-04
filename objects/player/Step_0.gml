@@ -33,7 +33,7 @@ if mouse_check_button_released(mb_right){
 }
 
 // Direction
-image_angle = radtodeg(arctan2(x-mouse_x, y-mouse_y));
+image_angle = (darctan2(x-mouse_x, y-mouse_y));
 
 // Movement
 if dash = 0{
@@ -54,7 +54,7 @@ if dash = 0{
     else{
 		friction = 0;
         gravity = 0.5 * dirMod + isStuck;
-        gravity_direction = (radtodeg(arctan2(x-direc.x, y-direc.y))+90);
+        gravity_direction = ((darctan2(x-direc.x, y-direc.y))+90);
 		
     }
 }
@@ -91,7 +91,12 @@ if place_meeting(x, y + pauseY * colisionDist, blockParent)vspeed = 0;
 
 // Other Things
 if (hp <= 0){
-	if score > global.maxScore global.maxScore = score;
-    room_restart();
+    ini_open("data.ini");
+	if ini_read_real( "save", "score", 0) < score{
+		ini_write_real("save", "score", score)
+	}
+	ini_close();
+	room_restart();
 }
+
 if (sobriety < 100) sobriety += metabolism;

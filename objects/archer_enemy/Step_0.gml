@@ -1,6 +1,6 @@
 //Perseguir jogador
 
-image_angle = radtodeg(arctan2(x-player.x, y-player.y));
+image_angle = (darctan2(x-player.x, y-player.y));
 dirMod = 1;
 
 if (point_distance(x, y, player.x, player.y) > distanceTreshold1){

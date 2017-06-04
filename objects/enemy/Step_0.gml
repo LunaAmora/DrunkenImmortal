@@ -1,6 +1,6 @@
 /// @description
 
-image_angle = radtodeg(arctan2(x-player.x, y-player.y));
+image_angle = (darctan2(x-player.x, y-player.y));
 dirMod = 1;
 	
 

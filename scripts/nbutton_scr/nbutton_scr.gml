@@ -9,7 +9,7 @@ switch (a){
 	        alarm[4] = arrowCooldown;									//reset arrow cooldown
 	        alarm[3] = -1;												//reset aiming timer
 			dashCounter--;
-		motion_set(radtodeg(arctan2(x-direc.x,y-direc.y))+90,25*dirMod) //dash speed
+		motion_set((darctan2(x-direc.x,y-direc.y))+90,25*dirMod) //dash speed
 			dash = 1;													//stop movements
 			alarm[0] = dash_timer;										//dash timer
 	    }
