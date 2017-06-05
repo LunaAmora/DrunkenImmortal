@@ -29,7 +29,6 @@ else{
 	bowImage = 5;
 }
 
-
 draw_sprite_ext(bow_spr, bowImage, x, y + 10, 1, 1, image_angle, c_white, image_alpha);
 
 for (var i = 0; i < image_number; i++)
