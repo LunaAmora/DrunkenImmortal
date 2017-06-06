@@ -1,2 +1,2 @@
 /// @description
-depth = -3*y+2;
+depth = -y;

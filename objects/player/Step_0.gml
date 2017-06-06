@@ -81,13 +81,23 @@ if dash = 0{
 }
 else instance_create_layer(x, y, "gameLayer", smokePuff);
 
-if sign(hspeed) = 0 pauseX = direc.dirX;
+/*if sign(hspeed) = 0 pauseX = direc.dirX;
 else pauseX = sign(hspeed);
 if sign(vspeed) = 0 pauseY = direc.dirY;
-else pauseY = sign(vspeed);
+else pauseY = sign(vspeed);*/
 
-if place_meeting(x + pauseX * colisionDist, y, blockParent)hspeed = 0;
-if place_meeting(x, y + pauseY * colisionDist, blockParent)vspeed = 0;
+if place_meeting(x + sign(hspeed) * colisionDist, y, blockParent){
+	hspeed = 0;
+}
+if place_meeting(x, y + sign(vspeed) * colisionDist, blockParent){
+	vspeed = 0;
+}
+if place_meeting(x + direc.dirX * colisionDist, y, blockParent){
+	hspeed = 0;
+}
+if place_meeting(x, y + direc.dirY * colisionDist, blockParent){
+	vspeed = 0;
+}
 
 // Other Things
 if (hp <= 0){

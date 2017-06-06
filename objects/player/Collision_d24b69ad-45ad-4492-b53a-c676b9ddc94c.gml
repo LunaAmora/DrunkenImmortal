@@ -5,6 +5,8 @@ if other.whoShoot != "player" && dash = 0{
 	}
 	switch (other.whoShoot){
 		case "archer": hp -= 1;break;
+		case "turret": hp -= 10;break;
 		case "mage": hp -= 5;break;
+		
 	}
 }

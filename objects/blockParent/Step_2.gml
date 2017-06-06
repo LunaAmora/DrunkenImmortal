@@ -1,2 +1,2 @@
 /// @description
-image_speed = 0;
+depth = -2*y

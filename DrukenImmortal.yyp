@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "200648db-8b6d-413c-99b3-e64b29bbc7ac",
+            "Value": {
+                "id": "94e0e96c-668a-4fe1-89ab-135f6612ceaa",
+                "resourcePath": "objects\\turret\\turret.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "24011c86-2e43-4459-a74b-f6d133ab29ed",
             "Value": {
                 "id": "dda6c7bc-c2a4-4e68-ab4a-09460efd162c",
@@ -92,6 +100,14 @@
                 "id": "ccd83393-9f77-4e6a-baa4-ad1276024cb3",
                 "resourcePath": "views\\2a3f248f-94a0-4678-ac37-771f92e65b05.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2b661eaf-d6da-4329-9313-4cb69387bc5d",
+            "Value": {
+                "id": "d46a61eb-692a-4eac-89dc-5f89e98ef6a9",
+                "resourcePath": "sprites\\mouse\\mouse.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
