@@ -1,5 +1,19 @@
 /// @description Basic Controls
 
+/*if camera_get_view_angle(view_camera[0]) > 360{
+	camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])-360)
+}
+if camera_get_view_angle(view_camera[0]) < 0{
+	camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])+360)
+}
+if keyboard_check_pressed(vk_left){
+    camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])-45);
+}
+
+if keyboard_check_pressed(vk_right){
+    camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])+45);
+}*/
+
 // Action
 if keyboard_check_pressed(vk_space){
     nbutton_scr(0);
@@ -13,14 +27,14 @@ if mouse_check_button(mb_right){
     nbutton_scr(2);
 }
 
-if keyboard_check(ord("E")){
-	if !(place_meeting((mouse_x div 32)*32, (mouse_y div 32)*32, blockParent)){
+/*if keyboard_check(ord("E")){
+	if (instance_position((mouse_x div 32)*32, (mouse_y div 32)*32, blockParent)) == noone{
 		instance_create_layer((mouse_x div 32)*32, (mouse_y div 32)*32, "Wall", wall);	
 	}
-}
+}*/
 
 if (keyboard_check_pressed(ord("Q"))){
-	nbutton_scr(3);
+	//nbutton_scr(3);
 	nbutton_scr(4);
 }
 

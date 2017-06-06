@@ -49,8 +49,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_88B5662C",
-                    "x": 1632,
-                    "y": 992,
+                    "x": 1024,
+                    "y": 352,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -68,7 +68,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "id": "1ffa0eb8-9acd-4ed9-8ac8-2866995901b0",
+            "id": "d80a186d-b0c8-4ef6-be57-2c355932df74",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
             "depth": 0,
@@ -290,8 +290,8 @@
         "id": "edfe8759-c1b1-4fa6-b80c-3e9adffee61f",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 2000,
-        "Width": 3000,
+        "Height": 1500,
+        "Width": 2500,
         "inheritRoomSettings": false,
         "persistent": false
     },

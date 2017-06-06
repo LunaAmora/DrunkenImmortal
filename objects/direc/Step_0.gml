@@ -12,7 +12,7 @@ if keyboard_check(ord("A")) dirX-=1;
 
 for (a = 0; a <= 100; a+= 1){
 	if place_meeting(player.x, player.y, blockParent) && a = 0{
-		player.isStuck = 10;
+		player.isStuck = 5;
 		for(b = 0; b <= 128; b+= 1){
 			switch(b mod 4){
 				case 0: c = 1; d = 0;break;
@@ -35,8 +35,9 @@ for (a = 0; a <= 100; a+= 1){
 		}
 	}
 	else{
-		if player.isStuck == 10{
+		if player.isStuck ==5{
 			player.isStuck = 0;
+			player.gravity = 0;
 			player.speed = 0
 		}
 		if (place_meeting(player.x+(dirX*a),player.y+(dirY), blockParent)) && colX = 0{
