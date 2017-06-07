@@ -1,3 +1,5 @@
 /// @description
 
-instance_destroy(other);
+if !(other.fixed){
+	instance_destroy(other);
+}
