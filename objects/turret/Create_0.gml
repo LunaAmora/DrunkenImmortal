@@ -6,6 +6,6 @@ event_inherited();
 usingWeapon = 0;
 swording = 0;
 
-aimingTime = 15;
-arrowCooldown = 15;
-shootVelo = 4;
+aimingTime = 20;
+arrowCooldown = 20;
+shootVelo = 5;

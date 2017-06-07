@@ -1,5 +1,4 @@
 image_speed = 0;
-gravity = 0.5;
 
 usingWeapon = 0;
 swording = 0;

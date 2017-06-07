@@ -1,19 +1,5 @@
 /// @description Basic Controls
 
-/*if camera_get_view_angle(view_camera[0]) > 360{
-	camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])-360)
-}
-if camera_get_view_angle(view_camera[0]) < 0{
-	camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])+360)
-}
-if keyboard_check_pressed(vk_left){
-    camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])-45);
-}
-
-if keyboard_check_pressed(vk_right){
-    camera_set_view_angle(view_camera[0], camera_get_view_angle(view_camera[0])+45);
-}*/
-
 // Action
 if keyboard_check_pressed(vk_space){
     nbutton_scr(0);
@@ -54,20 +40,13 @@ if dash = 0{
 	if (dizziness) dirMod = -1;
 	else dirMod = 1;
 	
-    if place_meeting(x, y, direc)&& !(place_meeting(x, y, blockParent)){
-        if direc.colX = 1 || direc.colY = 1{
-			gravity = 0;
-			friction = 0;
-			speed = 0;
-		}
-		else{
-			friction = 1;
-	        gravity = 0;
-		}
+    if place_meeting(x, y, direc){
+		friction = 10;
+	    gravity = 0;
     }
     else{
 		friction = 0;
-        gravity = 0.5 * dirMod + isStuck;
+        gravity = 0.5 * dirMod;
         gravity_direction = ((darctan2(x-direc.x, y-direc.y))+90);
 		
     }
@@ -95,21 +74,10 @@ if dash = 0{
 }
 else instance_create_layer(x, y, "gameLayer", smokePuff);
 
-/*if sign(hspeed) = 0 pauseX = direc.dirX;
-else pauseX = sign(hspeed);
-if sign(vspeed) = 0 pauseY = direc.dirY;
-else pauseY = sign(vspeed);*/
-
-if place_meeting(x + sign(hspeed) * colisionDist, y, blockParent){
+if place_meeting(x + sign(hspeed)*colisionDist, y, blockParent) || place_meeting(x + direc.dirX*colisionDist, y, blockParent){
 	hspeed = 0;
 }
-if place_meeting(x, y + sign(vspeed) * colisionDist, blockParent){
-	vspeed = 0;
-}
-if place_meeting(x + direc.dirX * colisionDist, y, blockParent){
-	hspeed = 0;
-}
-if place_meeting(x, y + direc.dirY * colisionDist, blockParent){
+if place_meeting(x, y + sign(vspeed)*colisionDist, blockParent) || place_meeting(x, y + direc.dirY*colisionDist, blockParent){
 	vspeed = 0;
 }
 

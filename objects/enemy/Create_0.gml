@@ -1,7 +1,5 @@
 /// @description
-
 image_speed = 0;
-gravity = 0.5;
 arrowCooldown = -1;
 
 attackTreshold = 60;
