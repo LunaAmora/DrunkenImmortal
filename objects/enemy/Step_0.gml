@@ -1,5 +1,5 @@
 /// @description
-
+event_inherited();
 image_angle = (darctan2(x-player.x, y-player.y));
 dirMod = 1;
 	

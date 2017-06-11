@@ -17,7 +17,7 @@ dashCounter = 4;
 dashRegen = 60;
 
 // HP Variables
-maxHp = 100000;
+maxHp = 100;
 hp = maxHp;
 
 // Soberty Variables
@@ -37,7 +37,7 @@ dizzinessDuration = 5;
 swordAngle = 140;
 swordCooldown = 0;
 swordSpeed = 20;
-colisionDist = 20;
+colisionDist = 18;
 
 canDef = 1;
 defQuanti = 3;

@@ -1,5 +1,6 @@
 /// @description Basic Controls
-
+alarm[10]= 1;
+depth = -y;
 // Action
 if keyboard_check_pressed(vk_space){
     nbutton_scr(0);

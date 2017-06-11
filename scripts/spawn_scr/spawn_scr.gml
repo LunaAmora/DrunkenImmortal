@@ -4,7 +4,7 @@ a = argument0;
 control.spawn = false
 lado = irandom_range(1, 4);
 if a != noone{
-	if lado = 1{
+	/*if lado = 1{
 		instance_create_layer(-20, random_range(0, room_height), "GameLayer", a);
 	}
 
@@ -18,6 +18,7 @@ if a != noone{
 
 	if lado = 4{
 		instance_create_layer(random_range(0, room_width), room_height+20, "GameLayer", a);
-	}
+	}*/
+	instance_create_layer(x+lado,y+lado, "GameLayer", a);
 }
-alarm_set(2, 30);
+alarm_set(2, 35);
