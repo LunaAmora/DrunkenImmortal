@@ -4,8 +4,6 @@ W, A, S, D: Movements
 
 Q: Summon Defense Arrows
 
-E: Place Wall
-
 Space: Dash
 
 Mouse: Aim
