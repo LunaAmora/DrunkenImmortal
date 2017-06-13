@@ -37,7 +37,7 @@ dizzinessDuration = 5;
 swordAngle = 140;
 swordCooldown = 0;
 swordSpeed = 20;
-colisionDist = 18;
+colisionDist = 25;
 
 canDef = 1;
 defQuanti = 3;

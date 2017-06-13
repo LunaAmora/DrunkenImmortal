@@ -2,6 +2,10 @@
 image_speed = 0;
 arrowCooldown = -1;
 
+newAngle = 0;
+angleChanged = 0
+
+dirMod = 0;
 attackTreshold = 60;
 distanceTreshold2 = 45;
 velocity = 8;

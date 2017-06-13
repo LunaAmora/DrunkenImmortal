@@ -3,6 +3,10 @@ image_speed = 0;
 usingWeapon = 0;
 swording = 0;
 
+newAngle = 0;
+angleChanged = 0;
+
+dirMod = 0;
 spinDir = choose(2, 0);
 distanceTreshold1 = 300;			//orbit
 distanceTreshold2 = 250;			//retreat
