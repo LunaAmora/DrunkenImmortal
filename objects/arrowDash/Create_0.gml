@@ -1,3 +1,2 @@
 /// @description
-
-depth = -y;
+event_inherited();

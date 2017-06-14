@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "daa1fb6a-f284-415a-98f7-c581ef6e7b41",
+            "Value": {
+                "id": "2171070c-cbbd-4fba-9c8c-8086cfc247e6",
+                "resourcePath": "objects\\arrowDash\\arrowDash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dbb12153-24ce-47fa-b8b7-1611f096cc7e",
             "Value": {
                 "id": "726337ce-4188-44d8-9a8c-91f400a812b3",

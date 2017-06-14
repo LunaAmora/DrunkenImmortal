@@ -52,7 +52,7 @@ switch (a){
 		}
 	break;
 	
-	case 4:
+	case 4:		// Def Arrows---------------------------------------------------
 		if canDef = 1{
 			for (var i = defQuanti; i != 0; i--){
 				if instance_number(arrowDef)+1 <= control.arraySize{
@@ -69,6 +69,17 @@ switch (a){
 				}
 			}
 			//canDef = 0;
+		}
+	break;
+	
+	case 5:
+		if canArrowDash = 1{
+			ad = instance_create_layer(x, y, "GameLayer", arrowDash);
+			ad.image_angle = (darctan2(x - aim.x, y - aim.y));
+			ad.velo = dashShootVeloMin;
+			ad.dashVelo = dashShootVeloMax;
+			ad.alarm[1] = arrowDashTurnTime;
+			ad.whoShoot = "player";
 		}
 	break;
 }

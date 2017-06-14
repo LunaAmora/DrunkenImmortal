@@ -14,15 +14,9 @@ if mouse_check_button(mb_right){
     nbutton_scr(2);
 }
 
-/*if keyboard_check(ord("E")){
-	if (instance_position((mouse_x div 32)*32, (mouse_y div 32)*32, blockParent)) == noone{
-		instance_create_layer((mouse_x div 32)*32, (mouse_y div 32)*32, "Wall", wall);	
-	}
-}*/
-
 if (keyboard_check_pressed(ord("Q"))){
-	//nbutton_scr(3);
-	nbutton_scr(4);
+	nbutton_scr(5);
+	//nbutton_scr(4);
 }
 
 if mouse_check_button_released(mb_left){
