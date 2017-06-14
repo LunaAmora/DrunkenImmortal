@@ -23,7 +23,7 @@ hp = maxHp;
 // Soberty Variables
 maxSobriety = 100;
 sobriety = maxSobriety;
-metabolism = 0.1;
+metabolism = 0.01;
 
 // Shoot Variables
 maxError = 25;
