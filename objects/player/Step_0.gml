@@ -67,7 +67,10 @@ if dash = 0{
         speed = 0;
     }
 }
-else instance_create_layer(x, y, "gameLayer", smokePuff);
+else{
+	ad = instance_create_layer(x, y, "gameLayer", smokePuff);
+	ad.owner = "player";
+}
 
 if place_meeting(x + sign(hspeed)*colisionDist, y, blockParent) || place_meeting(x + direc.dirX*colisionDist, y, blockParent){
 	hspeed = 0;

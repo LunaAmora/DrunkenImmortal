@@ -17,4 +17,6 @@ arrowCooldown = irandom_range(15,45);
 shootVelo = 5;
 arrowDurability = 10;
 
+colour = c_aqua;
+
 alarm[2] = irandom_range(90, 240);

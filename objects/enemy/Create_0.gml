@@ -16,5 +16,7 @@ canSword = 1;
 swordCooldown = 5;
 swordSpeed = 30;
 
+colour = c_yellow;
+
 spinDir = choose(2, 0);
 alarm[2] = irandom_range(90, 240);

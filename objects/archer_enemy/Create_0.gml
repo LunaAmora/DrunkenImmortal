@@ -17,4 +17,6 @@ aimingTime = 10;
 arrowCooldown = irandom_range(0,10);
 shootVelo = 12;
 
+colour = c_orange;
+
 alarm[2] = irandom_range(90, 240);
