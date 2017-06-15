@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2db95fdf-232c-4354-9347-909e1dcd10d2",
+            "Value": {
+                "id": "f6b53412-be51-457c-8dac-94482b992195",
+                "resourcePath": "objects\\spark\\spark.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "315dab58-16ed-42d3-a322-d15865c77aca",
             "Value": {
                 "id": "f9f2c498-7c40-4d84-ae97-e31dddd6e4b0",
@@ -500,6 +508,14 @@
                 "id": "e03c8d55-2ae2-46f9-a81b-e499ab45b9dd",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa81f6ee-82a6-4197-8d21-174a8d28f11a",
+            "Value": {
+                "id": "a90c686b-d650-4fb9-acb9-a70f4c628a7d",
+                "resourcePath": "sprites\\spark_spr\\spark_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
