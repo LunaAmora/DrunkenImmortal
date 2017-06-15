@@ -75,11 +75,15 @@ switch (a){
 	case 5:
 		if canArrowDash = 1{
 			ad = instance_create_layer(x, y, "GameLayer", arrowDash);
-			ad.image_angle = (darctan2(x - aim.x, y - aim.y));
+			if string(object_get_name(object_index)) = "player"{
+				ad.image_angle = (darctan2(x - aim.x, y - aim.y));
+			}
+			else ad.image_angle = image_angle - 90
 			ad.velo = dashShootVeloMin;
 			ad.dashVelo = dashShootVeloMax;
 			ad.alarm[1] = arrowDashTurnTime;
-			ad.whoShoot = "player";
+			ad.whoShoot = string(object_get_name(object_index));
+			ad.owner = id;
 		}
 	break;
 }

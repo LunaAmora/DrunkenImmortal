@@ -1,0 +1,2 @@
+/// @description
+canArrowDash = 1;
