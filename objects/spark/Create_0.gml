@@ -1,4 +1,4 @@
-alarm[0] = 5;
+alarm[0] = 10;
 bool = false;
 image_speed = 0;
 image_index = irandom_range(0, 2);
