@@ -44,6 +44,6 @@ defQuanti = 3;
 distanceDef = 50;
 
 canArrowDash = 1;
-arrowDashTurnTime = 60;
+arrowDashTurnTime = 30;
 dashShootVeloMin = 10;
 dashShootVeloMax = 35;
