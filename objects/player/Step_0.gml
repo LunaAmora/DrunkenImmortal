@@ -15,8 +15,12 @@ if mouse_check_button(mb_right){
 }
 
 if (keyboard_check_pressed(ord("Q"))){
+	nbutton_scr(3);
+	nbutton_scr(4);
+}
+if (keyboard_check_pressed(ord("E"))){
+	nbutton_scr(3);
 	nbutton_scr(5);
-	//nbutton_scr(4);
 }
 
 if mouse_check_button_released(mb_left){

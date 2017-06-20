@@ -43,7 +43,7 @@ switch (a){
 	
 	case 3:		// Drink--------------------------------------------------------
 		
-		sobriety -= 10;
+		sobriety -= 2;
 		if (sobriety <= 0)
 		{	
 			alarm[2] = dizzinessDuration * room_speed;
