@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "34e5ab3f-b747-4b1c-9891-397598c017c5",
+            "Value": {
+                "id": "92b4c3a4-a3b1-4b3f-acb7-d1d723507a21",
+                "resourcePath": "objects\\explosion\\explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "414a7288-79fe-4945-944e-251e6d1fd258",
             "Value": {
                 "id": "127bbecc-b434-4deb-aa96-94fdee4df4e6",
@@ -308,6 +316,14 @@
                 "id": "299e6bbf-4438-43df-99e5-118841efc1a2",
                 "resourcePath": "rooms\\HurHub\\HurHub.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "86257217-30b9-492b-a18d-23734f2d1976",
+            "Value": {
+                "id": "eba3a956-5950-4186-b4d1-5f3f53b510ef",
+                "resourcePath": "sprites\\explosino_spr\\explosino_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

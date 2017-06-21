@@ -9,3 +9,5 @@ swording = 0;
 aimingTime = 15;
 arrowCooldown = 15;
 shootVelo = 4;
+
+active = true;

@@ -22,6 +22,10 @@ if (keyboard_check_pressed(ord("E"))){
 	nbutton_scr(3);
 	nbutton_scr(5);
 }
+if (keyboard_check_pressed(ord("F"))){
+	nbutton_scr(3);
+	nbutton_scr(6);
+}
 
 if mouse_check_button_released(mb_left){
     alarm[3] = -1;

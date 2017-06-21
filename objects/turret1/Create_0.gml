@@ -4,4 +4,5 @@ canArrowDash = 1;
 shootTime = 15;
 dashShootVeloMin = 5;
 dashShootVeloMax = 15;
-arrowDashTurnTime = 30; 
+arrowDashTurnTime = 30;
+active = true;

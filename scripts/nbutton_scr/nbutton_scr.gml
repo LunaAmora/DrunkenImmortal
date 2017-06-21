@@ -77,8 +77,8 @@ switch (a){
 			ad = instance_create_layer(x, y, "GameLayer", arrowDash);
 			if string(object_get_name(object_index)) = "player"{
 				ad.image_angle = (darctan2(x - aim.x, y - aim.y));
-			}
-			else ad.image_angle = image_angle - 90
+		}
+		else ad.image_angle = image_angle - 90
 			ad.velo = dashShootVeloMin;
 			ad.dashVelo = dashShootVeloMax;
 			ad.alarm[1] = arrowDashTurnTime;
@@ -86,4 +86,9 @@ switch (a){
 			ad.owner = id;
 		}
 	break;
+	
+	case 6:
+		instance_create_layer(player.x, player.y, "GameLayer", explosion);
+		
+		break;
 }
