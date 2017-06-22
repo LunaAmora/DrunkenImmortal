@@ -17,7 +17,7 @@ dashCounter = 4;
 dashRegen = 60;
 
 // HP Variables
-maxHp = 1000;
+maxHp = 100;
 hp = maxHp;
 
 // Soberty Variables
