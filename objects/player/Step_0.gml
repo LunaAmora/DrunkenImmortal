@@ -14,16 +14,16 @@ if mouse_check_button(mb_right){
     nbutton_scr(2);
 }
 
-if (keyboard_check_pressed(ord("Q"))){
-	nbutton_scr(3);
+if (keyboard_check_pressed(ord("1"))){
+	sobriety -= 10;
 	nbutton_scr(4);
 }
-if (keyboard_check_pressed(ord("E"))){
-	nbutton_scr(3);
+if (keyboard_check_pressed(ord("2"))){
+	sobriety -= 10;
 	nbutton_scr(5);
 }
-if (keyboard_check_pressed(ord("F"))){
-	nbutton_scr(3);
+if (keyboard_check_pressed(ord("4"))){
+	sobriety -= 50;
 	nbutton_scr(6);
 }
 
@@ -97,4 +97,10 @@ if (hp <= 0){
 	room_restart();
 }
 
+if (sobriety <= 0)
+{	
+	alarm[2] = dizzinessDuration * room_speed;
+	sobriety = 0.1;
+	dizziness = true;
+}
 if (sobriety < 100) sobriety += metabolism;

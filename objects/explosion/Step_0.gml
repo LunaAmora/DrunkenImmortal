@@ -10,7 +10,7 @@ with (smokePuff)
 
 with (enemyParent)
 {
-	if (distance_to_object(other) <= 0 ) motion_add(point_direction(other.x, other.y, x, y), 1.5);
+	if (distance_to_object(other) <= 0) motion_add(point_direction(other.x, other.y, x, y), 1.5);
 }
 
 with (turret)
