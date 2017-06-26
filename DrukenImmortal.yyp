@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "4f7816e6-9e88-41ca-9a2b-45755083895b",
+            "Value": {
+                "id": "a52733f6-c558-4abc-805d-0d1f705fe5e4",
+                "resourcePath": "rooms\\NorthTemple\\NorthTemple.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5892e0e4-64d7-4558-bbf4-159d65cc7faf",
             "Value": {
                 "id": "6863c9f9-4775-45e5-a71c-47df90c82feb",
@@ -324,6 +332,14 @@
                 "id": "eba3a956-5950-4186-b4d1-5f3f53b510ef",
                 "resourcePath": "sprites\\explosino_spr\\explosino_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "88ff06aa-c10e-4b23-888b-b8decfd753b1",
+            "Value": {
+                "id": "02a2bd96-c669-4682-9b64-2c6f48a2769b",
+                "resourcePath": "objects\\spawner\\spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
