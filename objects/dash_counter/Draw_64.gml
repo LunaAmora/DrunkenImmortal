@@ -7,12 +7,9 @@ draw_healthbar(0, view_hport[0], view_wport[0], view_hport[0] - 16, player.sobri
 
 draw_set_color(c_black);
 
-for (i = 0; i < 4, i++)
+for (i = 0; i <= 4; i++)
 {
-
+	draw_line(view_wport[0] / 5 * i, view_hport[0], view_wport[0] / 5 * i, view_hport[0]- 16);
 }
 
-draw_line(view_wport[0] / 5, view_hport[0], view_wport[0] / 5, view_hport[0]- 16);
-draw_line(view_wport[0] / 5 * 2, view_hport[0], view_wport[0] / 5 * 2, view_hport[0]- 16);
-draw_line(view_wport[0] / 5 * 3, view_hport[0], view_wport[0] / 5 * 3, view_hport[0]- 16);
-draw_line(view_wport[0] / 5 * 4, view_hport[0], view_wport[0] / 5, view_hport[0]- 16);
+draw_set_color(c_white);
