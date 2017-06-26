@@ -8,7 +8,7 @@ if keyboard_check(vk_enter){    //restart game
 		ini_write_real("save", "score", score)
 	}
 	ini_close();
-	room_restart();
+	game_restart();
 }
 
 time ++;
