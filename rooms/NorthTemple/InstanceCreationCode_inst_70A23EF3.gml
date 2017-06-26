@@ -1,0 +1,1 @@
+shootTime = 45;
