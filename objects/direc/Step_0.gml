@@ -1,7 +1,7 @@
 /// @description Movement Direction
 
-dirX = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-dirY = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+dirX = (keyboard_check(ord("D")) - keyboard_check(ord("A")))*player.dizziness;
+dirY = (keyboard_check(ord("S")) - keyboard_check(ord("W")))*player.dizziness;
 
 for (a = 0; a <= 30; a++){
 	if place_meeting(player.x + a * dirX, player.y + a * dirY, blockParent){

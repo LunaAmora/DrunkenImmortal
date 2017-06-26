@@ -32,7 +32,7 @@ aimingTime = 10;
 shootVelo = 30;
 
 // Others
-dizziness = false;
+dizziness = 1;
 dizzinessDuration = 5;
 swordAngle = 140;
 swordCooldown = 0;

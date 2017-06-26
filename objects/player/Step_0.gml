@@ -40,16 +40,13 @@ image_angle = (darctan2(x-mouse_x, y-mouse_y));
 
 // Movement
 if dash = 0{
-	if (dizziness) dirMod = -1;
-	else dirMod = 1;
-	
     if place_meeting(x, y, direc){
 		friction = 10;
 	    gravity = 0;
     }
     else{
 		friction = 0;
-        gravity = 0.5 * dirMod;
+        gravity = 0.5;
         gravity_direction = ((darctan2(x-direc.x, y-direc.y))+90);
 		
     }
@@ -101,10 +98,9 @@ if (hp <= 0){
 	room_restart();
 }
 
-if (sobriety <= 0)
+if (sobriety <= 20)
 {	
 	alarm[2] = dizzinessDuration * room_speed;
-	sobriety = 0.1;
-	dizziness = true;
+	dizziness = -1;
 }
 if (sobriety < 100) sobriety += metabolism;

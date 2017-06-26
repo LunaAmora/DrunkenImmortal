@@ -1,3 +1,3 @@
 /// @description Dizziness
 
-dizziness = false;
+dizziness = 1;
