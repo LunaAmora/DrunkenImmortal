@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04def79d-d139-4381-b1ec-0f31e6ec1a67",
+            "Value": {
+                "id": "e6cb0d36-d303-47c7-8e27-cf75d0531f1c",
+                "resourcePath": "sprites\\teleport_spr\\teleport_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "102b0fe8-fe7c-4ca6-9dd8-8fadd7417153",
             "Value": {
                 "id": "06d6f796-118e-4d02-a0b1-3d94e2f59443",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "3203ad55-ec66-42f5-9778-afcf3427e55e",
+            "Value": {
+                "id": "4636e089-8349-4ea1-ab0e-bfb7c5c6211f",
+                "resourcePath": "rooms\\EstTemple\\EstTemple.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "333b2a72-42c4-4ee7-84b3-219ba08b63c2",
             "Value": {
                 "id": "0f246ee8-6620-4299-947c-77f084e6d862",
@@ -215,6 +231,14 @@
             }
         },
         {
+            "Key": "4c8ebdc8-667a-4385-beba-66cd6cb40059",
+            "Value": {
+                "id": "d8bfde42-cb89-45db-ba6c-9fb852a2ca24",
+                "resourcePath": "objects\\teleport\\teleport.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4cd3ed27-9ffa-453e-8952-c243c21cf695",
             "Value": {
                 "id": "83397e9a-1a7b-4f1a-8c24-1a1046fc8a1f",
@@ -244,6 +268,14 @@
                 "id": "6863c9f9-4775-45e5-a71c-47df90c82feb",
                 "resourcePath": "views\\5892e0e4-64d7-4558-bbf4-159d65cc7faf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "58e9e0f9-6339-433c-b62f-511fd9d392c3",
+            "Value": {
+                "id": "8b532a8a-da2f-46e3-97fd-e984fd1f9cb2",
+                "resourcePath": "rooms\\WestTemple\\WestTemple.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -284,6 +316,14 @@
                 "id": "c5ec5f80-4e47-4a82-8dfd-d39fce96a987",
                 "resourcePath": "sprites\\wall_spr\\wall_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7295c943-82d2-4a63-8ded-5a6c082187e3",
+            "Value": {
+                "id": "db88c5b0-9a77-42e2-9c33-6c5562e5669d",
+                "resourcePath": "rooms\\SouthTemple\\SouthTemple.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -420,14 +460,6 @@
                 "id": "7d960bca-c7a9-4ca8-bbe6-cd952f1d3a93",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "abc7a257-e599-4f5a-9773-9e0bb56e6a32",
-            "Value": {
-                "id": "fb2044f8-e945-4d80-b77b-47bb3507af49",
-                "resourcePath": "rooms\\Hub\\Hub.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

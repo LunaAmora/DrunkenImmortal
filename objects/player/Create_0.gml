@@ -27,9 +27,9 @@ metabolism = 0.1;
 
 // Drinks
 
-drink1 = false;
-drink2 = false;
-drink3 = false;
+drink1 = true;
+drink2 = true;
+drink3 = true;
 drink4 = true;
 
 // Shoot Variables
