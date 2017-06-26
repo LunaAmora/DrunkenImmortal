@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "34e33c9b-6b27-4760-8515-ae50da686503",
+            "Value": {
+                "id": "4b615546-3371-4a7d-af37-65141b9ec153",
+                "resourcePath": "sprites\\turret1_spr\\turret1_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34e5ab3f-b747-4b1c-9891-397598c017c5",
             "Value": {
                 "id": "92b4c3a4-a3b1-4b3f-acb7-d1d723507a21",
@@ -172,6 +180,14 @@
                 "id": "127bbecc-b434-4deb-aa96-94fdee4df4e6",
                 "resourcePath": "objects\\archer_enemy\\archer_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4575a7b7-78da-4c46-82c4-2f54167e0f55",
+            "Value": {
+                "id": "bc19f3c9-37f9-45a8-9ecb-bfe1576a4c52",
+                "resourcePath": "sprites\\turret_spr\\turret_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
