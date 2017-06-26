@@ -3,10 +3,10 @@ a = argument0;
 b = argument1;
 
 if b != 0{
-	if b >= sobriety{
+	if b <= sobriety{
 		sobriety -= b;
 	}
-	//else return 0;
+	else return 0;
 }
 switch (a){
 	case "dash":		// DASH --------------------------------------------------------
