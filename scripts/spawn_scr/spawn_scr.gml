@@ -5,4 +5,4 @@ spawn = false
 if a != noone{
 	instance_create_layer(x,y, "GameLayer", a);
 }
-alarm_set(2, 999999);
+alarm_set(2, room_speed * 3);

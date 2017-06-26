@@ -740,8 +740,8 @@
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_824F477.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_824F477",
                     "objId": "200648db-8b6d-413c-99b3-e64b29bbc7ac",
@@ -764,8 +764,8 @@
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_6C7AA6A5.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_6C7AA6A5",
                     "objId": "200648db-8b6d-413c-99b3-e64b29bbc7ac",
@@ -788,8 +788,8 @@
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_3C0BA72B.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3C0BA72B",
                     "objId": "200648db-8b6d-413c-99b3-e64b29bbc7ac",
@@ -812,8 +812,8 @@
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_3308ECB3.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_3308ECB3",
                     "objId": "200648db-8b6d-413c-99b3-e64b29bbc7ac",
