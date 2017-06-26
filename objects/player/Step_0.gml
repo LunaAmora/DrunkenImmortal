@@ -78,6 +78,10 @@ if dash = 0{
 else{
 	ad = instance_create_layer(x, y, "gameLayer", smokePuff);
 	ad.owner = "player";
+	if potionDash = 0{
+		ad.colour = c_white;
+	}
+	else ad.colour = c_orange;
 }
 
 if place_meeting(x + sign(hspeed)*colisionDist, y, blockParent) || place_meeting(x + direc.dirX*colisionDist, y, blockParent){
