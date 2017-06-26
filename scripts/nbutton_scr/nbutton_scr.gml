@@ -67,7 +67,7 @@ switch (a){
 					defReset_scr();
 				}
 			}
-			canDef = 0;
+			//canDef = 0;
 		}
 	break;
 	
