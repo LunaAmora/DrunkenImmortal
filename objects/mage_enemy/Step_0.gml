@@ -19,7 +19,7 @@ if !(collision_line(x, y, player.x, player.y, blockParent, true, true)){
 
 	if (point_distance(x, y, player.x, player.y) < distanceTreshold3)
 	{
-		nbutton_scr(1);
+		nbutton_scr("arrow", 0);
 	}
 	gravity_direction = image_angle + 90*dirMod;
 }

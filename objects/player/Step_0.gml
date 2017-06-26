@@ -3,28 +3,28 @@
 depth = -y;
 // Action
 if keyboard_check_pressed(vk_space){
-    nbutton_scr(0);
+    nbutton_scr("dash", 0);
 }
 
 if mouse_check_button(mb_left){
-    nbutton_scr(1);
+    nbutton_scr("arrow", 0);
 }
 
 if mouse_check_button(mb_right){
-    nbutton_scr(2);
+    nbutton_scr("sword", 0);
 }
 
 if (keyboard_check_pressed(ord("1"))){
-	sobriety -= 10;
-	nbutton_scr(4);
+	nbutton_scr(1, 20);
 }
 if (keyboard_check_pressed(ord("2"))){
-	sobriety -= 10;
-	nbutton_scr(5);
+	nbutton_scr(2, 20);
+}
+if (keyboard_check_pressed(ord("3"))){
+	nbutton_scr(3, 20);
 }
 if (keyboard_check_pressed(ord("4"))){
-	sobriety -= 50;
-	nbutton_scr(6);
+	nbutton_scr(4, 50);
 }
 
 if mouse_check_button_released(mb_left){

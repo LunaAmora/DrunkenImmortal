@@ -1,5 +1,5 @@
 /// @description
 event_inherited();
-nbutton_scr(1);
+nbutton_scr("arrow", 0);
 
 //image_angle++

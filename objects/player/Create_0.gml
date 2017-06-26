@@ -39,11 +39,15 @@ swordCooldown = 0;
 swordSpeed = 20;
 colisionDist = 25;
 
-canDef = 1;
 defQuanti = 3;
 distanceDef = 50;
-
-canArrowDash = 1;
 arrowDashTurnTime = 30;
 dashShootVeloMin = 10;
 dashShootVeloMax = 35;
+potionDash = 0;
+
+// Beverages Cooldown
+canDef = 1;
+canArrowDash = 1;
+canExplosion = 1;
+canPotionDash = 1;
