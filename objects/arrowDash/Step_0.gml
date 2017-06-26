@@ -4,5 +4,6 @@ if velo = dashVelo {
 	sm.image_xscale = 0.15;
 	sm.image_yscale = 0.15;
 	sm.owner = whoShoot;
+	sm.colour = c_white;
 }
 event_inherited();
