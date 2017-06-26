@@ -25,6 +25,13 @@ maxSobriety = 100;
 sobriety = maxSobriety;
 metabolism = 0.1;
 
+// Drinks
+
+drink1 = false;
+drink2 = false;
+drink3 = false;
+drink4 = true;
+
 // Shoot Variables
 maxError = 25;
 arrowCooldown = 5;

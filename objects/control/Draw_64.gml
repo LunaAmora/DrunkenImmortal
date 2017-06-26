@@ -5,4 +5,4 @@ draw_text(16, 80, "Highscore: " + string(maxScore));
 draw_text(16, 96, "Score: " + string(score));
 draw_text(16, 112, "Enemies: " + string(spawner.a));
 
-draw_healthbar(0, 16, 200, 21, score / 10, c_black, c_dkgray, c_white, 0, true, true);
+draw_healthbar(0, 16, 200, 21, score, c_black, c_dkgray, c_white, 0, true, true);

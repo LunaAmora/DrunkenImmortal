@@ -14,17 +14,17 @@ if mouse_check_button(mb_right){
     nbutton_scr("sword", 0);
 }
 
-if (keyboard_check_pressed(ord("1"))){
+if (drink1 && keyboard_check_pressed(ord("1"))){
 	nbutton_scr(1, 20);
 }
-if (keyboard_check_pressed(ord("2"))){
+if (drink2 && keyboard_check_pressed(ord("2"))){
 	nbutton_scr(2, 20);
 }
-if (keyboard_check_pressed(ord("3"))){
+if (drink3 && keyboard_check_pressed(ord("3"))){
 	nbutton_scr(3, 20);
 }
-if (keyboard_check_pressed(ord("4"))){
-	nbutton_scr(4, 50);
+if (drink4 && keyboard_check_pressed(ord("4"))){
+	nbutton_scr(4, 60);
 }
 
 if mouse_check_button_released(mb_left){
