@@ -1,6 +1,6 @@
 /// @description
 switch (owner){
-	case "player": arrowC = c_white;break;
+	case "player": arrowC = colour;break;
 	case "mage": arrowC = c_aqua;break;
 	case "turret1": arrowC = c_orange;break;
 }
