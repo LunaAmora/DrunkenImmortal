@@ -6,7 +6,6 @@ for (a = 0; a <= arraySize; a++){
 }
 
 time = 0;
-spawn = true;
 score = 0;
 
 scoreGoal = 1000;
