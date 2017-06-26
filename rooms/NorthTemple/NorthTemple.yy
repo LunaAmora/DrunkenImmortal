@@ -64,7 +64,7 @@
                     "name_with_no_file_rename": "inst_6AFB6BBE",
                     "objId": "1de57d7d-4643-43d8-a576-35787cbedb3b",
                     "rotation": 0,
-                    "scaleX": -1,
+                    "scaleX": 1,
                     "scaleY": 1
                 }
             ]
