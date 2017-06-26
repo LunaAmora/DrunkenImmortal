@@ -95,7 +95,7 @@ if (hp <= 0){
 		ini_write_real("save", "score", score)
 	}
 	ini_close();
-	room_restart();
+	game_restart();
 }
 
 if (sobriety <= 20)
