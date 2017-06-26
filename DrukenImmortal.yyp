@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "3f606333-4655-41bd-925e-5c598fedc820",
+            "Value": {
+                "id": "7ffa29f3-935a-4a22-aacf-1bf1f61ed12e",
+                "resourcePath": "objects\\NorthTempleControl\\NorthTempleControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "414a7288-79fe-4945-944e-251e6d1fd258",
             "Value": {
                 "id": "127bbecc-b434-4deb-aa96-94fdee4df4e6",

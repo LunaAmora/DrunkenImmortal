@@ -10,4 +10,4 @@ aimingTime = 30;
 arrowCooldown = 15;
 shootVelo = 4;
 
-active = true;
+active = false;

@@ -1,4 +1,4 @@
-owner = "player";
+owner = noone;
 temp = random_range(0.1, 0.5);
 
 image_xscale = temp;
