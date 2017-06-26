@@ -5,4 +5,4 @@ control.spawn = false
 if a != noone{
 	instance_create_layer(x,y, "GameLayer", a);
 }
-alarm_set(2, 3000);
+alarm_set(2, 4500);
