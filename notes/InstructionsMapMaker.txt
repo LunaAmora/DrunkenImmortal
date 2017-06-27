@@ -1,0 +1,4 @@
+Para usar o fazedor automático de mapa, peque o arquivo "tiledata.ini" (não o filedata.txt)
+da pasta do projeto e coleque-o no sequinte diretório:
+
+C:\Users\o nome do seu computador\AppData\Local\DrukenImmortal
