@@ -28,10 +28,10 @@ metabolism = 0.1;
 
 // Drinks
 
-drink1 = true;
-drink2 = true;
-drink3 = true;
-drink4 = true;
+drink1 = false;
+drink2 = false;
+drink3 = false;
+drink4 = false;
 
 // Shoot Variables
 maxError = 25;
