@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "fc8b8eff-4347-4dc2-83c4-18641377758d",
+            "Value": {
+                "id": "bd6b37fd-6d1a-437d-b953-ef5db2e9615a",
+                "resourcePath": "objects\\grandpa_boss\\grandpa_boss.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fdf7141c-2e96-483c-8407-1768e986e29d",
             "Value": {
                 "id": "ba817af0-59dc-4b6c-9db8-3d42f67d37df",
