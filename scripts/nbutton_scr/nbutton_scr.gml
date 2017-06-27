@@ -86,11 +86,11 @@ switch (a){
 	
 	case 5:		        // Dash Arrows ------------------------------------------------
 		ad = instance_create_layer(x, y, "GameLayer", arrowDash);
-		if string(object_get_name(object_index)) = "player"{
-			ad.image_angle = (darctan2(x - aim.x, y - aim.y));
+		if string(object_get_name(object_index)) = "grandpa_boss"{
+			ad.image_angle = image_angle + 180;
 		}
-		else {
-			ad.image_angle = image_angle - 90;
+		else{
+			ad.image_angle = image_angle + 90;
 		}
 		ad.velo = dashShootVeloMin;
 		ad.dashVelo = dashShootVeloMax;
