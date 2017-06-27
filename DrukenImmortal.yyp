@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "08d04716-7423-4223-8933-c2fd87b19c44",
+            "Value": {
+                "id": "4db7bfd8-0562-41f3-9943-7c8a01db8a3b",
+                "resourcePath": "objects\\lifeDrop\\lifeDrop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "102b0fe8-fe7c-4ca6-9dd8-8fadd7417153",
             "Value": {
                 "id": "06d6f796-118e-4d02-a0b1-3d94e2f59443",
@@ -483,6 +491,14 @@
             "Value": {
                 "id": "4e2e0b5f-1874-4321-a430-c88d41451177",
                 "resourcePath": "sprites\\point_spr\\point_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c0157305-3ea3-4a84-b7e8-71578babf5c7",
+            "Value": {
+                "id": "b01f3573-3c75-4aa2-af1a-962a8f12a454",
+                "resourcePath": "sprites\\lifeDrop_spr\\lifeDrop_spr.yy",
                 "resourceType": "GMSprite"
             }
         },

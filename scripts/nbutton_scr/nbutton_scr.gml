@@ -15,7 +15,7 @@ switch (a){
 		    alarm[3] = -1;												//reset aiming timer
 			dash = 1;													//stop movements
 			alarm[0] = dash_timer;										//dash timer
-			motion_set((darctan2(x-direc.x,y-direc.y))+90,25)	//dash speed
+			motion_set((darctan2(x-direc.x,y-direc.y))+90,25)			//dash speed
 			if potionDash = 1{
 				dashCounter = 4;
 			}
