@@ -5,7 +5,7 @@
     "name": "victory",
     "eventList": [
         {
-            "id": "eb3bca20-b86b-4207-9a84-267b4727e1ce",
+            "id": "7feb3f1f-8ed8-4f0d-8d68-00b0b33ca1b5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "3cc22f60-ca6a-4b03-90c3-2df338720a7f"
         },
         {
-            "id": "c41ef593-2c47-49d1-b341-b36d89466a9b",
+            "id": "277f35da-8bd2-45ba-be40-9d0bf766d94d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "3cc22f60-ca6a-4b03-90c3-2df338720a7f"
         },
         {
-            "id": "244cf175-2b08-4597-a45a-a68a4500602b",
+            "id": "f7cbd4a5-0e06-4929-b296-9d8d47059878",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "3cc22f60-ca6a-4b03-90c3-2df338720a7f"
         },
         {
-            "id": "4b2f0e63-03ed-49a6-bfc3-d69298180979",
+            "id": "0f7e77cc-e4ce-4ede-992c-cde3bec01b4d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +45,7 @@
             "m_owner": "3cc22f60-ca6a-4b03-90c3-2df338720a7f"
         },
         {
-            "id": "ad8e4a71-c61d-4c43-96a4-2eacfd2c2eb3",
+            "id": "fcc7d6c7-b1ff-4c33-825f-af9e9c39c177",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

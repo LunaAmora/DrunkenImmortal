@@ -1,2 +1,2 @@
 roomActive = false;
-done = false
+done = false;

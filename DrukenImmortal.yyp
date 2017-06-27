@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2aba29d1-aa00-4258-8dc7-81200c0d152e",
+            "Value": {
+                "id": "26c3f0d7-a741-4b4f-9718-2ea91acd994d",
+                "resourcePath": "objects\\spawner\\spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b661eaf-d6da-4329-9313-4cb69387bc5d",
             "Value": {
                 "id": "d46a61eb-692a-4eac-89dc-5f89e98ef6a9",
@@ -201,7 +209,7 @@
         {
             "Key": "3cc22f60-ca6a-4b03-90c3-2df338720a7f",
             "Value": {
-                "id": "c9b718be-b453-4ed4-ab5a-004bf28977b2",
+                "id": "018848fc-f1ca-4a1e-a439-3ae00d75c8fe",
                 "resourcePath": "objects\\victory\\victory.yy",
                 "resourceType": "GMObject"
             }
@@ -233,7 +241,7 @@
         {
             "Key": "49594674-43ee-426e-91af-3441a63b1b31",
             "Value": {
-                "id": "48e703f5-33c3-4cef-8f6b-9f3f1b3dbef9",
+                "id": "cedfb630-ed58-43cd-ae87-f0d7fbe8d981",
                 "resourcePath": "sprites\\victory_spr\\victory_spr.yy",
                 "resourceType": "GMSprite"
             }
@@ -316,14 +324,6 @@
                 "id": "c81e4978-bebd-4e9d-87ee-feea57447b15",
                 "resourcePath": "objects\\control\\control.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5b5bdc7b-037b-4b18-9b71-862e832de980",
-            "Value": {
-                "id": "939846c5-95b2-4408-815e-5b8217a60353",
-                "resourcePath": "views\\5b5bdc7b-037b-4b18-9b71-862e832de980.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -412,14 +412,6 @@
                 "id": "eba3a956-5950-4186-b4d1-5f3f53b510ef",
                 "resourcePath": "sprites\\explosino_spr\\explosino_spr.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "88ff06aa-c10e-4b23-888b-b8decfd753b1",
-            "Value": {
-                "id": "02a2bd96-c669-4682-9b64-2c6f48a2769b",
-                "resourcePath": "objects\\spawner\\spawner.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -636,14 +628,6 @@
                 "id": "e03c8d55-2ae2-46f9-a81b-e499ab45b9dd",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f9dc4a37-d425-4eba-8de6-c6a52926bf5c",
-            "Value": {
-                "id": "5ed6c794-4267-421f-8775-a54a20c0e300",
-                "resourcePath": "views\\f9dc4a37-d425-4eba-8de6-c6a52926bf5c.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
