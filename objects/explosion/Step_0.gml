@@ -15,14 +15,14 @@ with (enemyParent)
 
 with (turret)
 {
-	if !(TempleControl.done){
+	if !(NorthTempleControl.done){
 		if (distance_to_object(other) <= 0 ) {active = false; alarm[0] = room_speed * 5;}
 	}
 }
 
 with (turret1)
 {
-	if !(TempleControl.done){
+	if !(NorthTempleControl.done){
 		if (distance_to_object(other) <= 0 ) {active = false; alarm[0] = room_speed * 5;}
 	}
 }

@@ -1,0 +1,2 @@
+roomActive = false;
+done = false;

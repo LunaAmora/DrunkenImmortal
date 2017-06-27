@@ -6,7 +6,6 @@ depth = -y;
 if (cheating)
 {
 	hp = 100;
-	sobriety = 100;
 	dashCounter = 4;
 }
 
