@@ -218,7 +218,7 @@
             "Key": "3f606333-4655-41bd-925e-5c598fedc820",
             "Value": {
                 "id": "7ffa29f3-935a-4a22-aacf-1bf1f61ed12e",
-                "resourcePath": "objects\\NorthTempleControl\\NorthTempleControl.yy",
+                "resourcePath": "objects\\TempleControl\\TempleControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -348,14 +348,6 @@
                 "id": "c5ec5f80-4e47-4a82-8dfd-d39fce96a987",
                 "resourcePath": "sprites\\wall_spr\\wall_spr.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7295c943-82d2-4a63-8ded-5a6c082187e3",
-            "Value": {
-                "id": "db88c5b0-9a77-42e2-9c33-6c5562e5669d",
-                "resourcePath": "rooms\\SouthTemple\\SouthTemple.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -548,6 +540,14 @@
                 "id": "59d606c0-3b45-4152-b933-2f7954669a68",
                 "resourcePath": "objects\\all\\all.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d1cac737-ff3a-4131-b12d-9108e3f41c3d",
+            "Value": {
+                "id": "90b36193-184d-4ca8-bca0-3c9f32611e4c",
+                "resourcePath": "rooms\\SouthTemple\\SouthTemple.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
