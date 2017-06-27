@@ -247,7 +247,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_63C975B4",
                     "x": 1024,
-                    "y": 8,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -259,7 +259,7 @@
                     "objId": "4c8ebdc8-667a-4385-beba-66cd6cb40059",
                     "rotation": 0,
                     "scaleX": 3,
-                    "scaleY": 0.25
+                    "scaleY": 0.5
                 },
                 {
                     "id": "67453468-07f4-42fe-9fff-47fc6bf0eb24",
@@ -271,7 +271,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_23AE397C",
                     "x": 1024,
-                    "y": 1528,
+                    "y": 1520,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -283,7 +283,7 @@
                     "objId": "4c8ebdc8-667a-4385-beba-66cd6cb40059",
                     "rotation": 0,
                     "scaleX": 3,
-                    "scaleY": 0.25
+                    "scaleY": 0.5
                 }
             ]
         },
