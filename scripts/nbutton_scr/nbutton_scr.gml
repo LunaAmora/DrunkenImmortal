@@ -97,5 +97,6 @@ switch (a){
 		ad.alarm[1] = arrowDashTurnTime;
 		ad.whoShoot = string(object_get_name(object_index));
 		ad.owner = id;
+		canArrowDash = true;
 	break;
 }
