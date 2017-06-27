@@ -2,6 +2,13 @@
 //alarm[10]= 1;
 depth = -y;
 // Action
+
+if (cheating)
+{
+	hp = 100;
+	dashCounter = 4;
+}
+
 if keyboard_check_pressed(vk_space){
     nbutton_scr("dash", 0);
 }
@@ -12,6 +19,11 @@ if mouse_check_button(mb_left){
 
 if mouse_check_button(mb_right){
     nbutton_scr("sword", 0);
+}
+
+if keyboard_check_pressed(vk_pageup){
+    if (cheating) cheating = false;
+	else cheating = true;
 }
 
 if (drink1 && keyboard_check_pressed(ord("1"))){

@@ -19,3 +19,13 @@ if (!roomActive)
 		
 	}
 }
+else if (score >= 100 && !done)
+{
+	done = true;
+	roomActive = true;
+	with (turret) active = false;
+	with (turret1) active = false;
+	with (spawner) spawn = false;
+	instance_create_layer(player.x, player.y, "GameLayer", explosion);
+	instance_create_layer(player.x, player.y, "GameLayer", victory);
+}

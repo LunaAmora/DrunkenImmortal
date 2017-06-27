@@ -19,6 +19,7 @@ dashRegen = 60;
 // HP Variables
 maxHp = 100;
 hp = maxHp;
+cheating = false;
 
 // Soberty Variables
 maxSobriety = 100;
