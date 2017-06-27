@@ -1,5 +1,4 @@
 /// @description Basic Controls
-//alarm[10]= 1;
 depth = -y;
 // Action
 
@@ -7,6 +6,7 @@ if (cheating)
 {
 	hp = 100;
 	dashCounter = 4;
+	sobriety = maxSobriety;
 }
 
 if keyboard_check_pressed(vk_space){
@@ -14,7 +14,7 @@ if keyboard_check_pressed(vk_space){
 }
 
 if mouse_check_button(mb_left){
-    nbutton_scr("arrow", 0);
+   nbutton_scr("arrow", 0);
 }
 
 if mouse_check_button(mb_right){
@@ -27,13 +27,16 @@ if keyboard_check_pressed(vk_pageup){
 }
 
 if (drink1 && keyboard_check_pressed(ord("1"))){
-	nbutton_scr(1, 20);
+	if instance_number(arrowDef) < 9{
+		nbutton_scr(1, 20);
+	}
 }
-if (drink2 && keyboard_check_pressed(ord("2"))){
-	nbutton_scr(2, 20);
+if (drink2 && keyboard_check_pressed(ord("2"))&& !(canArrowDash)){
+	nbutton_scr(2, 20)
 }
 if (drink3 && keyboard_check_pressed(ord("3"))){
 	nbutton_scr(3, 20);
+	
 }
 if (drink4 && keyboard_check_pressed(ord("4"))){
 	nbutton_scr(4, 60);
@@ -87,7 +90,7 @@ if dash = 0{
 else{
 	ad = instance_create_layer(x, y, "gameLayer", smokePuff);
 	ad.owner = "player";
-	if potionDash = 0{
+	if (canPotionDash){
 		ad.colour = c_white;
 	}
 	else ad.colour = c_orange;

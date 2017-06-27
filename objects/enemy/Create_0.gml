@@ -14,7 +14,7 @@ swordAngle = 180;
 swording = 0;
 canSword = 1;
 swordCooldown = 5;
-swordSpeed = 30;
+swordSpeed = 40;
 
 colour = c_yellow;
 

@@ -1,2 +1,1 @@
-/// @description
 canArrowDash = false;

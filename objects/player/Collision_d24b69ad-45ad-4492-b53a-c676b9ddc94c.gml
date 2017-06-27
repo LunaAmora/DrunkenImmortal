@@ -4,10 +4,10 @@ if other.whoShoot != "player" && dash = 0{
 		instance_destroy();
 	}
 	switch (other.whoShoot){
-		case "archer": hp -= 1;break;
-		case "turret": hp -= 5;break;
-		case "turret1": hp -= 5;break;
-		case "mage": hp -= 5;break;
+		case "archer": hp -= 2;break;
+		case "turret": hp -= 3;break;
+		case "turret1": hp -= 4;break;
+		case "mage": hp -= 3;break;
 		
 	}
 }

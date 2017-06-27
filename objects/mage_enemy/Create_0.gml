@@ -12,7 +12,7 @@ distanceTreshold1 = 350;			//orbit
 distanceTreshold2 = 300;			//retreat
 distanceTreshold3 = 550;			//shoot
 
-aimingTime = 30;
+aimingTime = 35;
 arrowCooldown = irandom_range(15,45);
 shootVelo = 5;
 arrowDurability = 10;

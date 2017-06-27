@@ -52,53 +52,50 @@ switch (a){
 	break;
 	
 	case 1:		        // Def Arrows --------------------------------------------------
-		if canDef = 1{
-			for (var i = defQuanti; i != 0; i--){
-				if instance_number(arrowDef)+1 <= control.arraySize{
-					with(instance_create_layer(x, y, "GameLayer", arrowDef)){
-						owner = other.id;
-						for (a = 0; a <= control.arraySize; a++){
-							if control.defCircle[a] == 0{
-								control.defCircle[a] = id;
-								a = control.arraySize+1;
-							}
+		for (var i = defQuanti; i != 0; i--){
+			if instance_number(arrowDef)+1 <= control.arraySize{
+				with(instance_create_layer(x, y, "GameLayer", arrowDef)){
+					owner = other.id;
+					for (a = 0; a <= control.arraySize; a++){
+						if control.defCircle[a] == 0{
+							control.defCircle[a] = id;
+							a = control.arraySize+1;
 						}
 					}
-					defReset_scr();
 				}
+				defReset_scr();
 			}
-			//canDef = 0;
 		}
 	break;
 	
 	case 2:		        // Dash Arrows ------------------------------------------------
-		if canArrowDash = 1{
-			ad = instance_create_layer(x, y, "GameLayer", arrowDash);
-			if string(object_get_name(object_index)) = "player"{
-				ad.image_angle = (darctan2(x - aim.x, y - aim.y));
-			}
-			else {
-				ad.image_angle = image_angle - 90;
-			}
-			ad.velo = dashShootVeloMin;
-			ad.dashVelo = dashShootVeloMax;
-			ad.alarm[1] = arrowDashTurnTime;
-			ad.whoShoot = string(object_get_name(object_index));
-			ad.owner = id;
-			//canArrowDash = 0;
-		}
+		canArrowDash = true;
+		alarm[6] = arrowDefTimer;
 	break;
+	
 	case 3:		        // Dash Pontion------------------------------------------------
-		if canPotionDash = 1{
-			potionDash = 1;
-			//canPotionDash = 0;
+		if !(canPotionDash){
+			canPotionDash = true;
+			alarm[7] = potionDashTimer;
 		}
 	break;
 	
 	case 4:		        // Explosion --------------------------------------------------
-		if canExplosion = 1{
-			instance_create_layer(player.x, player.y, "GameLayer", explosion);
-			//canExplosion = 0;
+		instance_create_layer(player.x, player.y, "GameLayer", explosion);
+	break;
+	
+	case 5:		        // Dash Arrows ------------------------------------------------
+		ad = instance_create_layer(x, y, "GameLayer", arrowDash);
+		if string(object_get_name(object_index)) = "player"{
+			ad.image_angle = (darctan2(x - aim.x, y - aim.y));
 		}
-		break;
+		else {
+			ad.image_angle = image_angle - 90;
+		}
+		ad.velo = dashShootVeloMin;
+		ad.dashVelo = dashShootVeloMax;
+		ad.alarm[1] = arrowDashTurnTime;
+		ad.whoShoot = string(object_get_name(object_index));
+		ad.owner = id;
+	break;
 }

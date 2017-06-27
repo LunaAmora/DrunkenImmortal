@@ -1,6 +1,6 @@
 /// @description
 event_inherited();
-canArrowDash = 1;
+canArrowDash = false;
 shootTime = 60;
 dashShootVeloMin = 5;
 dashShootVeloMax = 15;

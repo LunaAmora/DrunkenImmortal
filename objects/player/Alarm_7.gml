@@ -1,0 +1,1 @@
+canPotionDash = false;

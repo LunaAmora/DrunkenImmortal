@@ -55,7 +55,10 @@ dashShootVeloMax = 35;
 potionDash = 0;
 
 // Beverages Cooldown
-canDef = 1;
-canArrowDash = 1;
-canExplosion = 1;
-canPotionDash = 1;
+canArrowDash = false;
+canPotionDash = false;
+
+// Beverages Variables
+defTimer = 3 * room_speed;
+arrowDefTimer = 3 * room_speed;
+potionDashTimer = 5 * room_speed;
