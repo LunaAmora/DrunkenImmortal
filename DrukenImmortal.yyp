@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "3203ad55-ec66-42f5-9778-afcf3427e55e",
-            "Value": {
-                "id": "4636e089-8349-4ea1-ab0e-bfb7c5c6211f",
-                "resourcePath": "rooms\\EstTemple\\EstTemple.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "333b2a72-42c4-4ee7-84b3-219ba08b63c2",
             "Value": {
                 "id": "0f246ee8-6620-4299-947c-77f084e6d862",
@@ -228,6 +220,14 @@
                 "id": "127bbecc-b434-4deb-aa96-94fdee4df4e6",
                 "resourcePath": "objects\\archer_enemy\\archer_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "433a48b9-ba0e-4782-8410-af6e0dbc98e7",
+            "Value": {
+                "id": "1ba2cf87-2f32-43fb-abd5-1fe467689707",
+                "resourcePath": "rooms\\EastTemple\\EastTemple.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -308,14 +308,6 @@
                 "id": "6863c9f9-4775-45e5-a71c-47df90c82feb",
                 "resourcePath": "views\\5892e0e4-64d7-4558-bbf4-159d65cc7faf.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "58e9e0f9-6339-433c-b62f-511fd9d392c3",
-            "Value": {
-                "id": "8b532a8a-da2f-46e3-97fd-e984fd1f9cb2",
-                "resourcePath": "rooms\\WestTemple\\WestTemple.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -492,6 +484,14 @@
                 "id": "4e2e0b5f-1874-4321-a430-c88d41451177",
                 "resourcePath": "sprites\\point_spr\\point_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb2509bc-1a92-4233-bec4-f1ee716b442e",
+            "Value": {
+                "id": "889b1dc0-2f80-4c8e-9bbc-fe86d13ef86a",
+                "resourcePath": "rooms\\WestTemple\\WestTemple.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
