@@ -90,7 +90,7 @@ if dash = 0{
 else{
 	ad = instance_create_layer(x, y, "gameLayer", smokePuff);
 	ad.owner = "player";
-	if (canPotionDash){
+	if !(canPotionDash){
 		ad.colour = c_white;
 	}
 	else ad.colour = c_orange;

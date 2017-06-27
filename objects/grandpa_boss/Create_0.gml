@@ -18,8 +18,8 @@ distanceTreshold2 = 250;			//retreat
 distanceTreshold3 = 450;			//shoot
 canShoot = false;
 
-aimingTime = 15;
-arrowCooldown = irandom_range(0,10);
+aimingTime = 5;
+arrowCooldown = irandom_range(0,5);
 shootVelo = 12;
 
 colour = c_fuchsia;
