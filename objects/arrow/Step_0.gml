@@ -1,5 +1,3 @@
-/// @description Destroying
-
 if whoShoot == "mage"{
 	gravity = 1;
 	gravity_direction = (darctan2(x - player.x, y - player.y))+ 90;

@@ -9,7 +9,6 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "472b9ef6-3e7b-4bcd-b041-9eba44698c2c",
         "dae69ea3-518e-49d1-bd75-f0f6be3993bf",
         "c130aca3-9748-485c-b5b2-5e62ddb06fab",
         "51a62e7a-5a0e-4ec4-a69c-b07cb4b12d4d",
@@ -122,30 +121,6 @@
             "visible": true,
             "instances": [
                 {
-                    "id": "472b9ef6-3e7b-4bcd-b041-9eba44698c2c",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_6EF6B7E0",
-                    "x": 1552,
-                    "y": 1040,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_6EF6B7E0",
-                    "objId": "7aa55198-aed0-4b5c-a916-3128e03a603f",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
                     "id": "dae69ea3-518e-49d1-bd75-f0f6be3993bf",
                     "modelName": "GMRInstance",
                     "mvc": "1.0",
@@ -154,7 +129,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3ED43C2",
-                    "x": 1552,
+                    "x": 1520,
                     "y": 1040,
                     "IsDnD": false,
                     "colour": {
@@ -178,7 +153,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_71A64D2",
-                    "x": 1552,
+                    "x": 1520,
                     "y": 1008,
                     "IsDnD": false,
                     "colour": {
@@ -202,7 +177,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1569AB9E",
-                    "x": 1552,
+                    "x": 1520,
                     "y": 976,
                     "IsDnD": false,
                     "colour": {
@@ -226,7 +201,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2D73643B",
-                    "x": 1552,
+                    "x": 1520,
                     "y": 944,
                     "IsDnD": false,
                     "colour": {
@@ -250,7 +225,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_3C96DF90",
-                    "x": 1552,
+                    "x": 1520,
                     "y": 912,
                     "IsDnD": false,
                     "colour": {
@@ -274,7 +249,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_4D685371",
-                    "x": 1552,
+                    "x": 1520,
                     "y": 880,
                     "IsDnD": false,
                     "colour": {
@@ -298,7 +273,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6D53787C",
-                    "x": -16,
+                    "x": 16,
                     "y": 880,
                     "IsDnD": false,
                     "colour": {
@@ -322,7 +297,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1F89665",
-                    "x": -16,
+                    "x": 16,
                     "y": 912,
                     "IsDnD": false,
                     "colour": {
@@ -346,7 +321,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_50B86F7D",
-                    "x": -16,
+                    "x": 16,
                     "y": 944,
                     "IsDnD": false,
                     "colour": {
@@ -370,7 +345,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_312BD1CB",
-                    "x": -16,
+                    "x": 16,
                     "y": 976,
                     "IsDnD": false,
                     "colour": {
@@ -394,7 +369,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_2807B04D",
-                    "x": -16,
+                    "x": 16,
                     "y": 1008,
                     "IsDnD": false,
                     "colour": {
@@ -418,7 +393,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_778F34DA",
-                    "x": -16,
+                    "x": 16,
                     "y": 1040,
                     "IsDnD": false,
                     "colour": {
@@ -443,7 +418,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2B1B1DA4",
                     "x": 688,
-                    "y": -16,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -467,7 +442,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_65557035",
                     "x": 720,
-                    "y": -16,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -491,7 +466,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_4FBD0CBD",
                     "x": 752,
-                    "y": -16,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -515,7 +490,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_3C9825D7",
                     "x": 784,
-                    "y": -16,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -539,7 +514,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_60BBB960",
                     "x": 816,
-                    "y": -16,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -563,7 +538,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_252B4D24",
                     "x": 848,
-                    "y": -16,
+                    "y": 16,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -971,7 +946,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_47FE4CA6",
-                    "x": 0,
+                    "x": 96,
                     "y": 960,
                     "IsDnD": false,
                     "colour": {
@@ -996,7 +971,7 @@
                     "m_serialiseFrozen": false,
                     "name": "inst_2787718",
                     "x": 768,
-                    "y": 0,
+                    "y": 32,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -1019,7 +994,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_1F90D0A6",
-                    "x": 1504,
+                    "x": 1472,
                     "y": 960,
                     "IsDnD": false,
                     "colour": {

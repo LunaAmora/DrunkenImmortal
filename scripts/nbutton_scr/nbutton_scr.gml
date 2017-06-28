@@ -71,6 +71,8 @@ switch (a){
 	case 2:		        // Dash Arrows ------------------------------------------------
 		canArrowDash = true;
 		alarm[6] = arrowDefTimer;
+		aimingTime = 4;
+		
 	break;
 	
 	case 3:		        // Dash Pontion------------------------------------------------
@@ -90,7 +92,7 @@ switch (a){
 			ad.image_angle = image_angle + 180;
 		}
 		else{
-			ad.image_angle = image_angle + 90;
+			ad.image_angle = image_angle - 90;
 		}
 		ad.velo = dashShootVeloMin;
 		ad.dashVelo = dashShootVeloMax;

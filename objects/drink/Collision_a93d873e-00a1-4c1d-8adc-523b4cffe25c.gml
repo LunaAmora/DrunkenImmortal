@@ -1,8 +1,13 @@
-with other{
-	switch (other.drinkId){
-		case 0: drink1 = true;break;
-		case 1: drink2 = true;break;
-		case 2: drink3 = true;break;
-		case 3: drink4 = true;break;
-	}
+ini_open("data.ini")
+switch (drinkId){
+	case "south": 
+	ini_write_real("drinks", "drink3", 1);
+	ini_write_real("drinks", "drink2", 1);
+	break;
+	case "north":
+	ini_write_real("drinks", "drink1", 1);
+	ini_write_real("drinks", "drink4", 1);
+	break;
 }
+ini_close();
+instance_destroy();

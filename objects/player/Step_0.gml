@@ -1,5 +1,14 @@
 /// @description Basic Controls
 depth = -y;
+
+// Drinks
+ini_open("data.ini")
+drink1 = ini_read_real("drinks", "drink1", 0);
+drink2 = ini_read_real("drinks", "drink2", 0);
+drink3 = ini_read_real("drinks", "drink3", 0);
+drink4 = ini_read_real("drinks", "drink4", 0);
+ini_close();
+
 // Action
 
 if (cheating)
@@ -32,10 +41,10 @@ if (drink1 && keyboard_check_pressed(ord("1"))){
 	}
 }
 if (drink2 && keyboard_check_pressed(ord("2"))&& !(canArrowDash)){
-	nbutton_scr(2, 20)
+	nbutton_scr(2, 40)
 }
 if (drink3 && keyboard_check_pressed(ord("3"))){
-	nbutton_scr(3, 20);
+	nbutton_scr(3, 40);
 	
 }
 if (drink4 && keyboard_check_pressed(ord("4"))){

@@ -38,7 +38,7 @@ if place_meeting(x + sign(hspeed)*player.colisionDist, y, blockParent){
 	hspeed = 0;
 	if dirMod = spinDir alarm[2] = 1;
 	if dirMod > 30{
-		image_angle +=  irandom_range(90, 270)
+		image_angle +=  irandom_range(90, 270);
 		dirMod = 0;
 	} 
 }
@@ -46,7 +46,11 @@ if place_meeting(x, y + sign(vspeed)*player.colisionDist, blockParent){
 	vspeed = 0;
 	if dirMod = spinDir alarm[2] = 1;
 	if dirMod > 30{
-		image_angle +=  irandom_range(90, 270)
+		image_angle +=  irandom_range(90, 270);
 		dirMod = 0;
 	} 
+}
+
+if bhp <= 0{
+	instance_destroy();
 }

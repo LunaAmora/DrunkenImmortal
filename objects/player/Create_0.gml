@@ -26,14 +26,8 @@ maxSobriety = 100;
 sobriety = maxSobriety;
 metabolism = 0.1;
 
-// Drinks
-
-drink1 = false;
-drink2 = false;
-drink3 = false;
-drink4 = false;
-
 // Shoot Variables
+
 maxError = 25;
 arrowCooldown = 5;
 aimingTime = 10;
@@ -49,9 +43,9 @@ colisionDist = 25;
 
 defQuanti = 3;
 distanceDef = 50;
-arrowDashTurnTime = 30;
-dashShootVeloMin = 10;
-dashShootVeloMax = 35;
+arrowDashTurnTime = 20;
+dashShootVeloMin = 15;
+dashShootVeloMax = 45;
 potionDash = 0;
 
 // Beverages Cooldown
