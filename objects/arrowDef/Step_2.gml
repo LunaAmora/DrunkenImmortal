@@ -1,4 +1,3 @@
-/// @description
 event_inherited()
 
 substitute = 0;

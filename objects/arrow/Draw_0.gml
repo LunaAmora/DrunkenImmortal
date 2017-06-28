@@ -1,4 +1,3 @@
-/// @description
 switch (whoShoot){
 	case "player": arrowC = c_white;break;
 	case "archer": arrowC = c_yellow;break;

@@ -1,10 +1,11 @@
 switch (type){
 	case "New Game": 
 		ini_open("data.ini");
-		ini_section_delete("save")
-		ini_section_delete("temples")
-		ini_section_delete("drinks")
-		ini_section_delete("hdrinks")
+		ini_section_delete("save");
+		ini_section_delete("temples");
+		ini_section_delete("drinks");
+		ini_section_delete("hdrinks");
+		ini_section_delete("tutorial");
 		ini_close();
 		room_goto(HurHub);
 	break;

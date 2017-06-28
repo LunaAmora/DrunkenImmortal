@@ -1,4 +1,3 @@
-/// @description
 event_inherited();
 
 //image_angle = irandom(360);

@@ -1,5 +1,3 @@
-/// @description
-
 event_inherited();
 
 for(a = 0; a <= control.arraySize; a++){

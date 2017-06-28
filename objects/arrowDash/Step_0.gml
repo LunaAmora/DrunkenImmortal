@@ -1,4 +1,3 @@
-/// @description
 if velo = dashVelo {
 	sm = instance_create_layer(x,y,"Gamelayer", smokePuff);
 	sm.image_xscale = 0.15;
