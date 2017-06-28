@@ -37,12 +37,10 @@ if (cheating)
 
 if keyboard_check_pressed(vk_space){
     nbutton_scr("dash", 0);
-	if step == 3 step = 4;
 }
 
 if mouse_check_button(mb_left){
    nbutton_scr("arrow", 0);
-   if step == 1 step = 2;
 }
 
 if mouse_check_button(mb_right){
@@ -113,10 +111,10 @@ if dash = 0{
         gravity = 0.5;
         gravity_direction = ((darctan2(x-direc.x, y-direc.y))+90);
 		if step == 0 step = 1;
-		
     }
 }
 else{
+	if step == 3 step = 4;
     gravity = 0;
     friction = 0
 }
