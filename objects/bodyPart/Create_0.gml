@@ -1,4 +1,4 @@
-alarm[0] = 20;
+alarm[0] = 15;
 bool = false;
 image_speed = 0;
-colour = c_white;
+image_alpha = 0.75
