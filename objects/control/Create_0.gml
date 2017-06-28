@@ -5,7 +5,6 @@ for (a = 0; a <= arraySize; a++){
 	defCircle[a] = 0;
 }
 spawned = true;
-time = 0;
 score = 0;
 
 scoreGoal = 100;
