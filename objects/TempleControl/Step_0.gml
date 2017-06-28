@@ -88,31 +88,32 @@ ini_open("data.ini")
 	else if (control.spawnCount >= 100*(control.completed+1)&& !done)
 	{
 		with (spawner) spawn = false;
-		if instance_number(enemyParent) == 1{
-			with (enemyParent){
-				hasDrink = true;
-			}
-		}
+		
 		if !(instance_exists(enemyParent)){
-			instance_create_layer(player.x, player.y, "GameLayer", explosion);
-			instance_create_layer(player.x, player.y, "GameLayer", victory);
-			with (wall1){
-				if (blockPassage){
-					instance_destroy();
-					with (instance_create_layer(x, y, "GameLayer", smokePuff))
-					{
-						image_xscale *= 1.5;
-						image_yscale *= 1.5;
-					}
-				}
-			}
 			with (turret) active = false;
 			with (turret1) active = false;
-			done = true;
-			ini_open("data.ini");
-			ini_write_real("temples", string(dir), 1);
-			ini_write_real("temples", "count", ini_read_real("temples", "count", 0)+1);
-			ini_close();
+			if !(dSpawned){
+				instance_create_layer(room_width/2, room_height/2, "GameLayer", drink);
+				dSpawned = true;
+			}
+			if !(instance_exists(drink)){
+				instance_create_layer(player.x, player.y, "GameLayer", explosion);
+				with (wall1){
+					if (blockPassage){
+						instance_destroy();
+						with (instance_create_layer(x, y, "GameLayer", smokePuff))
+						{
+							image_xscale *= 1.5;
+							image_yscale *= 1.5;
+						}
+					}
+				}
+				done = true;
+				ini_open("data.ini");
+				ini_write_real("temples", string(dir), 1);
+				ini_write_real("temples", "count", ini_read_real("temples", "count", 0)+1);
+				ini_close();
+			}
 		}
 	}
 }

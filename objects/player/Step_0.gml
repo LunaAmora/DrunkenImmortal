@@ -1,11 +1,11 @@
 /// @description Basic Controls
 if step = 4{
 	step = 5;
-	alarm[10] = room_speed*5;
+	alarm[10] = room_speed*3;
 }
 if step = 6{
 	step = 7;
-	alarm[10] = room_speed*5;
+	alarm[10] = room_speed*2;
 }
 
 depth = -y;
@@ -151,12 +151,8 @@ if place_meeting(x, y + sign(vspeed)*colisionDist, blockParent) || place_meeting
 
 // Other Things
 if (hp <= 0){
-    ini_open("data.ini");
-	if ini_read_real( "save", "score", 0) < score{
-		ini_write_real("save", "score", score)
-	}
-	ini_close();
 	game_restart();
+	room_goto(HurHub);
 }
 
 if (sobriety <= 20)
