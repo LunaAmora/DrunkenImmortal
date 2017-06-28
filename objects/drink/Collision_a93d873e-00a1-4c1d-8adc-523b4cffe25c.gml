@@ -2,6 +2,7 @@ ini_open("data.ini")
 switch (drinkId){
 	case "east": 
 	ini_write_real("drinks", "drink3", 1);
+	
 	break;
 	case "south":
 	ini_write_real("drinks", "drink2", 1);

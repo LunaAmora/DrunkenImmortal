@@ -44,3 +44,20 @@ if (drink4){
 	draw_sprite_ext(drink_spr, 3, view_wport[0] - 32, view_hport[0] - 32, 0.5, 0.5, 0, c_white, dAlpha4);
 	draw_text(view_wport[0] - 32, view_hport[0] - 82, "4")
 }
+
+draw_sprite(Instructions_spr, step, view_wport[0]/2, 150);
+
+ini_open("data.ini")
+if (drink1) && !(havedrink1){
+	draw_sprite(Instructions1_spr, 0, view_wport[0]/2, 150);
+}
+if (drink2) && !(havedrink2){
+	draw_sprite(Instructions1_spr, 1, view_wport[0]/2, 150);
+}
+if (drink3) && !(havedrink3){
+	draw_sprite(Instructions1_spr, 2, view_wport[0]/2, 150);
+}
+if (drink4) && !(havedrink4){
+	draw_sprite(Instructions1_spr, 3, view_wport[0]/2, 150);	
+}
+ini_close();
