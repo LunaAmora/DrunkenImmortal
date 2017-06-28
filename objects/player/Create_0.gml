@@ -1,4 +1,4 @@
-/// @description Player Sheet
+/// @description Player
 image_speed = 0;
 
 // Var Declaring
