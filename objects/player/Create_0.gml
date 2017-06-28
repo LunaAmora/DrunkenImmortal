@@ -56,3 +56,8 @@ canPotionDash = false;
 defTimer = 3 * room_speed;
 arrowDefTimer = 3 * room_speed;
 potionDashTimer = 5 * room_speed;
+
+//instructions
+ini_open("data.ini")
+step = ini_read_real("tutorial", "step", 0);
+ini_close();
