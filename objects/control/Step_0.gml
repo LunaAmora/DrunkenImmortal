@@ -7,13 +7,6 @@ if keyboard_check(vk_enter){    //restart game
 	ini_close();
 	game_restart();
 }
-if keyboard_check(ord("R")){
-	ini_open("data.ini");
-	ini_section_delete("save")
-	ini_section_delete("temples")
-	ini_section_delete("drinks")
-	ini_close();
-}
 
 ini_open("data.ini"){
 	completed = ini_read_real("temples", "count", 0);

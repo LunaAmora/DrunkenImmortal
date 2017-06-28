@@ -1,1 +1,1 @@
-draw_sprite(drink_spr, nDrink, x, y);
+draw_sprite_ext(drink_spr, nDrink, x, y, image_xscale, image_yscale, 0, c_white, image_alpha);
