@@ -1,3 +1,3 @@
 goTo = HurHub;
-goX = 60;
-goY = 668;
+goX = 64;
+goY = 768;

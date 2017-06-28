@@ -1,3 +1,3 @@
 goTo = EastTemple;
-goX = 30;
+goX = 64;
 goY = 640;
