@@ -54,9 +54,21 @@ ini_open("data.ini")
 						}
 					}
 					break;
+					
 				case "east":
-					if (player.x > treshold) iniciate = true;
+					for (i = 0; i <= 5; i++)
+					{
+						with instance_create_layer(64 + 16, 544 + 16 + (i * 32), "Wall", wall1){
+							blockPassage = true;
+						}
+						with (instance_create_layer(64 + 16, 544 + 17 + (i * 32), "GameLayer", smokePuff))
+						{
+							image_xscale *= 1.5;
+							image_yscale *= 1.5;
+						}
+					}
 					break;
+					
 				case "west":
 					if (player.x < treshold) iniciate = true;
 					break;
