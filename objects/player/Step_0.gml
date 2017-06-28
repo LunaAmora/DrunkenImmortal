@@ -151,8 +151,11 @@ if place_meeting(x, y + sign(vspeed)*colisionDist, blockParent) || place_meeting
 
 // Other Things
 if (hp <= 0){
+	hp = maxHp;
 	game_restart();
 	room_goto(HurHub);
+	x = room_height/2;
+	y = room_width/2;
 }
 
 if (sobriety <= 20)

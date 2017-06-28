@@ -1,4 +1,3 @@
-/// @description
 switch (owner){
 	case "player": arrowC = colour;break;
 	case "mage": arrowC = c_aqua;break;

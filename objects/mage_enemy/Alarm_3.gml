@@ -1,5 +1,3 @@
-/// @description
-
 with(instance_create_layer(x, y + 10, "GameLayer", arrow))
 {
 	image_angle = other.image_angle;

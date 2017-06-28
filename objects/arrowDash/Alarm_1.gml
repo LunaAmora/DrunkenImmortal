@@ -1,4 +1,3 @@
-/// @description
 if whoShoot == "player"{
 	if target == noone && instance_exists(enemyParent){
 		target = instance_nearest(x, y, enemyParent);

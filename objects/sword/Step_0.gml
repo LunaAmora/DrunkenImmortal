@@ -1,5 +1,3 @@
-/// @description
-
 if instance_exists(owner){
 	image_angle += owner.swordSpeed;
 	if image_angle >= angleMax{

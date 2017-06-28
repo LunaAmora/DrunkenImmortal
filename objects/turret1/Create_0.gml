@@ -1,4 +1,3 @@
-/// @description
 event_inherited();
 canArrowDash = false;
 shootTime = 60;

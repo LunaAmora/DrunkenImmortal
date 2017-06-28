@@ -1,4 +1,3 @@
-/// @description
 event_inherited();
 	
 if !(collision_line(x, y, player.x, player.y, blockParent, true, true)){
