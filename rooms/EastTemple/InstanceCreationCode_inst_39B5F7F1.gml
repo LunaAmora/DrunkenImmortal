@@ -1,2 +1,2 @@
 dir = "east";
-treshold = 110;
+treshold = 180;
