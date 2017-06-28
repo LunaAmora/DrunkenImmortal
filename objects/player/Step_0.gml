@@ -1,10 +1,14 @@
 /// @description Basic Controls
 if step = 4{
 	step = 5;
-	alarm[10] = room_speed*3;
+	alarm[10] = room_speed*2;
 }
 if step = 6{
 	step = 7;
+	alarm[10] = room_speed*2;
+}
+if step = 8{
+	step = 9;
 	alarm[10] = room_speed*2;
 }
 
@@ -152,6 +156,7 @@ if place_meeting(x, y + sign(vspeed)*colisionDist, blockParent) || place_meeting
 // Other Things
 if (hp <= 0){
 	hp = maxHp;
+	sobriety = maxSobriety;
 	game_restart();
 	room_goto(HurHub);
 	x = room_height/2;
