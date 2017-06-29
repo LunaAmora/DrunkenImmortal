@@ -85,7 +85,7 @@ ini_open("data.ini")
 			}
 		}
 	}
-	else if (control.spawnCount >= 100*(control.completed+1)&& !done)
+	else if (control.spawnCount >= 75*(control.completed+1)&& !done)
 	{
 		with (spawner) spawn = false;
 		
