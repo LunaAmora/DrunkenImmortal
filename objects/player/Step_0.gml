@@ -34,6 +34,10 @@ if (cheating)
 	dashCounter = 4;
 	sobriety = maxSobriety;
 }
+if (canPotionDash){
+	dashCounter = 4;
+}
+
 
 if keyboard_check_pressed(vk_space){
     nbutton_scr("dash", 0);
@@ -153,10 +157,11 @@ if place_meeting(x, y + sign(vspeed)*colisionDist, blockParent) || place_meeting
 
 // Other Things
 if (hp <= 0){
-	hp = maxHp;
-	sobriety = maxSobriety;
 	game_restart();
 	room_goto(HurHub);
+	hp = maxHp;
+	sobriety = maxSobriety;
+	control.spawnCount = 0;
 	x = room_height/2;
 	y = room_width/2;
 }

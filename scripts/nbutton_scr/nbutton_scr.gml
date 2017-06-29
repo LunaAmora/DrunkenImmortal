@@ -70,7 +70,7 @@ switch (a){
 	
 	case 2:		        // Dash Arrows ------------------------------------------------
 		canArrowDash = true;
-		alarm[6] = arrowDefTimer;
+		alarm[6] = arrowDashTimer;
 		aimingTime = 4;
 		
 	break;

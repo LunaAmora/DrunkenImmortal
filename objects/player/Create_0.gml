@@ -53,9 +53,8 @@ canArrowDash = false;
 canPotionDash = false;
 
 // Beverages Variables
-defTimer = 3 * room_speed;
-arrowDefTimer = 3 * room_speed;
-potionDashTimer = 5 * room_speed;
+arrowDashTimer = 4 * room_speed;
+potionDashTimer = 6 * room_speed;
 
 //instructions
 ini_open("data.ini")
