@@ -33,6 +33,15 @@ if (cheating)
 	hp = 100;
 	dashCounter = 4;
 	sobriety = maxSobriety;
+	
+	ini_open("data.ini")
+	ini_write_real("drinks", "drink1", 1);
+	ini_write_real("drinks", "drink2", 1);
+	ini_write_real("drinks", "drink3", 1);
+	ini_write_real("drinks", "drink4", 1);
+	ini_close();
+	step = 10;
+	
 }
 if (canPotionDash){
 	dashCounter = 4;
