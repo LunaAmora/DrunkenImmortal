@@ -1,6 +1,7 @@
 if other.whoShoot != "player" && dash = 0{
 	with(other)
 	{
+		target = string(object_get_name(other.object_index));
 		instance_destroy();
 	}
 	switch (other.whoShoot){
