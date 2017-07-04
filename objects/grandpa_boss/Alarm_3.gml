@@ -17,3 +17,5 @@ if irandom(7) = 7{
 }
 else nbutton_scr(5, 0);
 alarm[4] = arrowCooldown;
+
+audio_play_sound(shoot,1, false);

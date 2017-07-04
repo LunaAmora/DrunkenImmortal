@@ -18,3 +18,5 @@ else{
 		whoShoot = "player";
 	}
 }
+
+audio_play_sound(shoot,1, false);

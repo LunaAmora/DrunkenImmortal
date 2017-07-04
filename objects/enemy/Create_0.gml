@@ -6,7 +6,7 @@ newAngle = 0;
 angleChanged = 0
 
 dirMod = 0;
-attackTreshold = 60;
+attackTreshold = 100;
 distanceTreshold2 = 45;
 velocity = 8;
 
