@@ -8,6 +8,6 @@ if other.whoShoot != "player" && dash = 0{
 		case "turret": hp -= 3;break;
 		case "turret1": hp -= 4;break;
 		case "mage": hp -= 3;break;
-		
 	}
+	audio_play_sound(damage,1, false);
 }
