@@ -105,6 +105,7 @@ if (drink4 && keyboard_check_pressed(ord("4"))){
 if mouse_check_button_released(mb_left){
     alarm[3] = -1;
     shooting = 0;
+	audio_play_sound(emptyBow, 1, false);
 }
 if mouse_check_button_released(mb_right){
     usingWeapon = 0;

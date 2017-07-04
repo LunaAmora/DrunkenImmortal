@@ -11,8 +11,8 @@ if (active)
 			owner = other.id;
 		}
 	}
+	if distance_to_object(player) < 500{
+		audio_play_sound(turret_snd,1, false);
+	}
 }
 alarm[4] = arrowCooldown;
-if distance_to_object(player) < 500{
-	audio_play_sound(turret_snd,1, false);
-}

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1dc24481-cb59-4869-a689-7a93789bfd40",
+            "Value": {
+                "id": "f8403332-9cf5-49e3-ab56-7e860443e0c4",
+                "resourcePath": "sounds\\arrowBreak\\arrowBreak.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1de57d7d-4643-43d8-a576-35787cbedb3b",
             "Value": {
                 "id": "4c37ccd0-6c8f-4a72-a66b-b371be1f3cdf",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "97546ac7-d144-477a-ba35-d18a5aeaf776",
+            "Value": {
+                "id": "5d5f08f5-ea96-4062-bdec-27b76700c9e2",
+                "resourcePath": "sounds\\emptyBow\\emptyBow.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "97bfb712-a9f1-4a72-9963-9991ac7b7f9d",
             "Value": {
                 "id": "7466c042-8c61-40cb-8486-5b7b17c078f7",
@@ -540,6 +556,14 @@
                 "id": "80e3cd9d-8321-4cf4-8b34-a312ff103e32",
                 "resourcePath": "sprites\\smokePuff_spr\\smokePuff_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6c74974-7ff2-453d-bb37-6f76cf18df33",
+            "Value": {
+                "id": "5a5e7364-115e-4bb2-9778-40cb4cb22788",
+                "resourcePath": "sounds\\damage\\damage.yy",
+                "resourceType": "GMSound"
             }
         },
         {
