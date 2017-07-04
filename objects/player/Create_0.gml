@@ -48,6 +48,7 @@ dashShootVeloMin = 15;
 dashShootVeloMax = 45;
 potionDash = 0;
 damageFeedback = 1;
+damaged = false;
 
 // Beverages Cooldown
 canArrowDash = false;

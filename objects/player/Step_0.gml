@@ -1,4 +1,8 @@
 /// @description Basic Controls
+if damaged == true{
+	damageFeedback += 0.05;
+	if damageFeedback >= 1 damaged = false;
+}
 if step = 4{
 	step = 5;
 	alarm[10] = room_speed*2;
