@@ -70,11 +70,9 @@ if keyboard_check_pressed(vk_pageup){
 	else cheating = true;
 }
 if keyboard_check_pressed(vk_pagedown){
-    if (cheating){
-		ini_open("data.ini");
-		ini_write_real("temples", "count", 4);
-		ini_close();
-	}
+	ini_open("data.ini");
+	ini_write_real("temples", "count", 4);
+	ini_close();
 }
 
 if (drink1 && keyboard_check_pressed(ord("1"))){
