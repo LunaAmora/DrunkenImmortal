@@ -6,4 +6,9 @@ switch (whoShoot){
 	case "turret1": arrowC = c_black;break;
 	case "grandpa_boss": arrowC = c_fuchsia;break;
 }
-draw_sprite_ext(arrow_spr, 0, x, y, image_xscale, image_yscale, image_angle, arrowC, image_alpha);
+if whoShoot != "player"{
+	draw_sprite_ext(arrow_spr, 0, x, y, image_xscale, image_yscale, image_angle, arrowC, image_alpha);
+}
+else{
+	draw_sprite_ext(arrow_sprP, 0, x, y, image_xscale, image_yscale, image_angle, arrowC, image_alpha);
+}

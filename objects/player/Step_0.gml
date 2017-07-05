@@ -159,7 +159,7 @@ else{
 	if !(canPotionDash){
 		ad.colour = c_white;
 	}
-	else ad.colour = c_orange;
+	else ad.colour = c_yellow;
 }
 
 if place_meeting(x + sign(hspeed)*colisionDist, y, blockParent) || place_meeting(x + direc.dirX*colisionDist, y, blockParent){

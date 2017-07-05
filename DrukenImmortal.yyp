@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "584abf15-b52c-4a68-a2e3-11b8b630c74c",
+            "Value": {
+                "id": "410155eb-3305-4cd1-af8f-f7a7b8c1bde4",
+                "resourcePath": "fonts\\menu_font\\menu_font.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5892e0e4-64d7-4558-bbf4-159d65cc7faf",
             "Value": {
                 "id": "6863c9f9-4775-45e5-a71c-47df90c82feb",
@@ -682,7 +690,7 @@
             "Key": "d75bf0b7-3a7d-4f7e-903e-e18115ad9920",
             "Value": {
                 "id": "17972ac2-68da-4bf4-915b-99e093e977a6",
-                "resourcePath": "sprites\\arrow_sprD\\arrow_sprD.yy",
+                "resourcePath": "sprites\\arrow_sprP\\arrow_sprP.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -772,6 +780,14 @@
                 "id": "e03c8d55-2ae2-46f9-a81b-e499ab45b9dd",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f62dd089-c77b-4cb9-9aae-f57afdbf00b6",
+            "Value": {
+                "id": "dd1649e0-3856-4851-958e-1bc06eca946c",
+                "resourcePath": "sprites\\bow_sprP\\bow_sprP.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
