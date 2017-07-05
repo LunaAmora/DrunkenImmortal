@@ -69,6 +69,13 @@ if keyboard_check_pressed(vk_pageup){
     if (cheating) cheating = false;
 	else cheating = true;
 }
+if keyboard_check_pressed(vk_pagedown){
+    if (cheating){
+		ini_open("data.ini");
+		ini_write_real("temples", "count", 4);
+		ini_close();
+	}
+}
 
 if (drink1 && keyboard_check_pressed(ord("1"))){
 	if instance_number(arrowDef) < 9{
