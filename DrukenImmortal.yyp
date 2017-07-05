@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2b7c4e9c-625f-4fcb-8680-839e28a38465",
+            "Value": {
+                "id": "f4666bf8-fbf7-4b30-93e8-46f3b009c8b7",
+                "resourcePath": "sprites\\playerIcone_spr\\playerIcone_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2db95fdf-232c-4354-9347-909e1dcd10d2",
             "Value": {
                 "id": "f6b53412-be51-457c-8dac-94482b992195",
