@@ -13,6 +13,11 @@ with (enemyParent)
 	if (distance_to_object(other) <= 0) motion_add(point_direction(other.x, other.y, x, y), 1.5);
 }
 
+with (grandpa_boss)
+{
+	if (distance_to_object(other) <= 0) motion_add(point_direction(other.x, other.y, x, y), 1.5);
+}
+
 with (turret)
 {
 	if !(TempleControl.done){

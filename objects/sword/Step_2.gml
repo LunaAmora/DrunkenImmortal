@@ -8,4 +8,4 @@ else{
 	instance_destroy();
 }
 
-depth = -y + 50;
+depth = -y + 100;
